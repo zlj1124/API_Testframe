@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1559550801138,
+    "stop" : 1559550801138,
+    "duration" : 0
+  },
+  "testSuites" : [ {
+    "uid" : "77eaec459b574343",
+    "name" : "test_collection_phase",
+    "title" : "Collection phase",
+    "time" : {
+      "start" : 1559550801138,
+      "stop" : 1559550801138,
+      "duration" : 0
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 2
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "2b487e139ec72b4a",
+      "name" : "test_collections",
+      "title" : "Test collections",
+      "time" : {
+        "start" : 1559550801138,
+        "stop" : 1559550801138,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "d14265bf9fca7092",
+      "name" : "test_personal",
+      "title" : "Test personal",
+      "time" : {
+        "start" : 1559550801138,
+        "stop" : 1559550801138,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

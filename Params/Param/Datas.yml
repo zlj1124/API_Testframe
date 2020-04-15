@@ -1,0 +1,29 @@
+---
+Datas:
+  dec: "api接口"
+  parameters:
+  -
+     url: /account/profile/
+     data:
+          getdata: {
+          search: " " 
+
+          }
+          postdata: {
+            phone: "16547894561", 
+            name: "456", 
+            role: "admin"
+          }
+     
+    
+  -
+      url: /auth/login/
+      data:      
+          postdata: {
+            username: "10086",
+            password: "10086"
+          }
+      
+ 
+      
+    

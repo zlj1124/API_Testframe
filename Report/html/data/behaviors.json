@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 2
+    },
+    "stories" : [ {
+      "uid" : "1617832c25c6ae39",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 2
+      },
+      "testCases" : [ {
+        "uid" : "2b487e139ec72b4a",
+        "name" : "test_collections",
+        "title" : "Test collections",
+        "time" : {
+          "start" : 1559550801138,
+          "stop" : 1559550801138,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d14265bf9fca7092",
+        "name" : "test_personal",
+        "title" : "Test personal",
+        "time" : {
+          "start" : 1559550801138,
+          "stop" : 1559550801138,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

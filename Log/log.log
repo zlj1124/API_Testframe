@@ -1,0 +1,5 @@
+[INFO 2020-04-15 16:42:37]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-15 16:42:38]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[ERROR 2020-04-15 16:42:39]statusCode error, expected_code is 201, statusCode is 400 
+[INFO 2020-04-15 16:43:05]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-15 16:43:06]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml

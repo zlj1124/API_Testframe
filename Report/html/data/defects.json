@@ -1,0 +1,40 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "8b40e50773d66607",
+      "failure" : {
+        "message" : "failed",
+        "stackTrace" : "ImportError while importing test module '/Users/wangjuan/workpace/API_Automation/TestCase/test_collections.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\nTestCase/test_collections.py:9: in <module>\n    from Params.params import Collections\nE   ImportError: cannot import name 'Collections'"
+      },
+      "testCases" : [ {
+        "uid" : "2b487e139ec72b4a",
+        "name" : "test_collections",
+        "title" : "Test collections",
+        "time" : {
+          "start" : 1559550801138,
+          "stop" : 1559550801138,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d14265bf9fca7092",
+        "name" : "test_personal",
+        "title" : "Test personal",
+        "time" : {
+          "start" : 1559550801138,
+          "stop" : 1559550801138,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}
