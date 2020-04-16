@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Apr 16 15:33:49 CST 2020","Thu Apr 16 15:33:49 CST 2020","181","TestCase","test_login","TestLogin","","","test_login_01","
+"passed","Thu Apr 16 16:08:37 CST 2020","Thu Apr 16 16:08:37 CST 2020","176","TestCase","test_login","TestLogin","","","test_login_01","
             用例描述：login接口
         "

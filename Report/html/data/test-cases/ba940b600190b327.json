@@ -1,12 +1,12 @@
 {
-  "uid" : "5b401420483ee2ed",
+  "uid" : "ba940b600190b327",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587020651327,
-    "stop" : 1587020651507,
-    "duration" : 180
+    "start" : 1587015239678,
+    "stop" : 1587015239861,
+    "duration" : 183
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "getdata",
     "time" : {
-      "start" : 1587020651144,
-      "stop" : 1587020651324,
-      "duration" : 180
+      "start" : 1587015239354,
+      "stop" : 1587015239675,
+      "duration" : 321
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "action",
     "time" : {
-      "start" : 1587020651143,
-      "stop" : 1587020651144,
-      "duration" : 1
+      "start" : 1587015239354,
+      "stop" : 1587015239354,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,9 +49,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c8986b63bc917671",
+      "uid" : "90618392addc111c",
       "name" : "log",
-      "source" : "c8986b63bc917671.txt",
+      "source" : "90618392addc111c.txt",
       "type" : "text/plain",
       "size" : 3973
     } ],
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587020651508,
-      "stop" : 1587020651508,
+      "start" : 1587015239862,
+      "stop" : 1587015239862,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "80063-MainThread"
+    "value" : "78525-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5b401420483ee2ed.json",
+  "source" : "ba940b600190b327.json",
   "parameterValues" : [ ]
 }

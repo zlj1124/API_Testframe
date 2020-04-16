@@ -1,12 +1,12 @@
 {
-  "uid" : "6905393401ac5009",
+  "uid" : "5859ae922cec311a",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587020259730,
-    "stop" : 1587020259910,
-    "duration" : 180
+    "start" : 1587022115258,
+    "stop" : 1587022115465,
+    "duration" : 207
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "getdata",
     "time" : {
-      "start" : 1587020259539,
-      "stop" : 1587020259726,
-      "duration" : 187
+      "start" : 1587022115081,
+      "stop" : 1587022115255,
+      "duration" : 174
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "action",
     "time" : {
-      "start" : 1587020259538,
-      "stop" : 1587020259539,
-      "duration" : 1
+      "start" : 1587022115081,
+      "stop" : 1587022115081,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,9 +49,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a16dd2a5d32e0e01",
+      "uid" : "7d31a0ab8fbd3d",
       "name" : "log",
-      "source" : "a16dd2a5d32e0e01.txt",
+      "source" : "7d31a0ab8fbd3d.txt",
       "type" : "text/plain",
       "size" : 3973
     } ],
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587020259911,
-      "stop" : 1587020259911,
+      "start" : 1587022115465,
+      "stop" : 1587022115465,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "79776-MainThread"
+    "value" : "80752-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6905393401ac5009.json",
+  "source" : "5859ae922cec311a.json",
   "parameterValues" : [ ]
 }
