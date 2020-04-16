@@ -1,3 +1,0 @@
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:208 Starting new HTTP connection (1): 192.168.3.21
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://192.168.3.21:30236 "POST /auth/login/ HTTP/1.1" 200 297
-[35mDEBUG   [0m root:Log.py:69 [DEBUG 2020-04-14 14:47:37]cookies: {}

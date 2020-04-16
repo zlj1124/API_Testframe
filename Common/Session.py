@@ -17,7 +17,7 @@ class Session:
         self.config = Config.Config()
         self.log = Log.MyLog()
 
-    def get_session(self, env):
+    def get_session(self, env='qiye6'):
         """
         获取session
         :param env: 环境变量
@@ -30,12 +30,9 @@ class Session:
            
             "Content-Type": "application/json;charset=UTF-8"
         }
-
-        if env == "debug":
-            login_url =self.config.loginHost_debug
-            parm = self.config.loginInfo_debug
-            # print(self.config.loginInfo_debug)
-
+        print(env)
+        if env == 'qiye6':
+            
             parm={"username":"10086","password":"10086"}    
             session_debug = requests.session()
  
@@ -44,24 +41,10 @@ class Session:
           
             auth = "JWT " + response.json()["token"]
             # self.headers["Authorization"] = auth
-            print(response.set_cookie("token", auth))
-            print(response.cookies.get_dict())
-        
-
-           
-           
+            # print(response.set_cookie("token", auth))
+            print(response.cookies.get_dict())          
             self.log.debug('cookies: %s' % response.cookies.get_dict())
             return response.cookies.get_dict()
-
-        # elif env == "release":
-        #     login_url = 'http://' + self.config.loginHost_release
-        #     parm = self.config.loginInfo_release
-
-        #     session_release = requests.session()
-        #     response = session_release.post(login_url, parm, headers=headers)
-        #     print(response.cookies)
-        #     self.log.debug('cookies: %s' % response.cookies.get_dict())
-        #     return response.cookies.get_dict()
 
         else:
             print("get cookies error")
@@ -70,4 +53,4 @@ class Session:
 
 if __name__ == '__main__':
     ss = Session()
-    ss.get_session('debug')
+    ss.get_session()

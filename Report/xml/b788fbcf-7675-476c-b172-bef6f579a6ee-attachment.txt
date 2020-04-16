@@ -1,1 +1,0 @@
-[31m[1mERROR   [0m root:Log.py:87 [ERROR 2020-04-13 16:12:15]get cookies error, please checkout!!!

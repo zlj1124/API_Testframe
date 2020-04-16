@@ -11,7 +11,7 @@ from Common import Consts
 from Common import Assert
 
 
-
+ 
 class TestLogin:
 
 
@@ -21,7 +21,7 @@ class TestLogin:
         conf = Config()
         self.data = Datas()
         self.request = Send_Request.Request()
-        self.host = conf.host_debug  
+        self.host = conf.host_qiye6
         self.urls = self.data.url
 
         yield

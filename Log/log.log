@@ -1,5 +1,67 @@
-[INFO 2020-04-15 16:42:37]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
-[INFO 2020-04-15 16:42:38]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
-[ERROR 2020-04-15 16:42:39]statusCode error, expected_code is 201, statusCode is 400 
-[INFO 2020-04-15 16:43:05]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
-[INFO 2020-04-15 16:43:06]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 10:36:34]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 10:36:36]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 10:38:03]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 10:38:04]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 10:48:52]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 10:48:54]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 10:52:27]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 10:52:28]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 10:52:47]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 10:52:48]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 10:57:17]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 10:57:18]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 11:00:53]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 11:00:54]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 11:41:01]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 11:41:02]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 11:42:57]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 11:42:57]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 13:30:07]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 13:30:07]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[ERROR 2020-04-16 13:30:12]邮件发送失败，请检查邮件配置
+[INFO 2020-04-16 13:33:58]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 13:33:59]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 13:34:03]邮件发送成功
+[INFO 2020-04-16 13:57:10]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 13:57:10]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 13:57:15]邮件发送成功
+[INFO 2020-04-16 14:13:20]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 14:13:21]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 14:13:25]邮件发送成功
+[INFO 2020-04-16 14:24:55]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 14:24:56]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 14:25:00]邮件发送成功
+[INFO 2020-04-16 14:57:38]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 14:57:39]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 14:58:10]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 14:58:11]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 14:58:45]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 14:58:46]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 14:58:49]邮件发送成功
+[INFO 2020-04-16 15:04:10]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:04:10]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:04:15]邮件发送成功
+[INFO 2020-04-16 15:08:06]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:08:07]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:08:11]邮件发送成功
+[INFO 2020-04-16 15:25:06]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:25:07]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:25:12]邮件发送成功
+[INFO 2020-04-16 15:25:37]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:25:37]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:25:41]邮件发送成功
+[INFO 2020-04-16 15:27:11]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:27:11]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[ERROR 2020-04-16 15:27:14]发送邮件失败，请检查邮件配置
+[INFO 2020-04-16 15:27:53]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:27:54]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:27:57]邮件发送成功
+[INFO 2020-04-16 15:28:34]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:28:34]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:28:38]邮件发送成功
+[INFO 2020-04-16 15:30:13]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:30:13]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:30:17]邮件发送成功
+[INFO 2020-04-16 15:33:48]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-16 15:33:48]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-16 15:33:53]邮件发送成功

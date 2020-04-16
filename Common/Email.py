@@ -10,7 +10,7 @@ import time
 from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
+import os
 from Common import Consts
 from Common import Log
 from Conf.Config import Config
@@ -23,31 +23,37 @@ class SendMail:
         self.log = Log.MyLog()
 
     def sendMail(self):
-        msg = MIMEMultipart()
-        # body = """
-        # <h3>Hi，all</h3>
-        # <p>本次接口自动化测试报告如下。</p>
-        # """
-        # mail_body = MIMEText(body, _subtype='html', _charset='utf-8')
         stress_body = Consts.STRESS_LIST
         result_body = Consts.RESULT_LIST
-        body2 = 'Hi，all\n本次接口自动化测试报告如下：\n   接口响应时间集：%s\n   接口运行结果集：%s' % (stress_body, result_body)
-        mail_body2 = MIMEText(body2, _subtype='plain', _charset='utf-8')
-        tm = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-        msg['Subject'] = Header("接口自动化测试报告"+"_"+tm, 'utf-8')
-        msg['From'] = self.config.sender
+        test_dir = os.path.join(os.getcwd(), "report/html")
+        rep_dir= os.path.join(test_dir,'index.html')
+        with open(rep_dir, "rb") as f:
+            mail_content = f.read()
+           
+        annex = MIMEMultipart()
+        # 添加正文
+        body = 'Hi，all\n本次接口自动化测试报告如下：\n   接口响应时间集：%s\n   接口运行结果集：%s' % (stress_body, result_body)
+        mail_body = MIMEText(body, _subtype='plain', _charset='utf-8')
+      
+        # 添加附件
+        msg_html = MIMEText(mail_content, "html", "utf-8")
+        msg_html["Content-Type"] = "application/octet-stream"
+        msg_html["Content-Disposition"] = "attachment; filename=index.html"
+        annex.attach(mail_body )
+        annex.attach(msg_html)
+        annex["Subject"] = Header('测试报告', "utf-8")
+        annex['From'] = self.config.sender
         receivers = self.config.receiver
         toclause = receivers.split(',')
-        msg['To'] = ",".join(toclause)
-        # msg.attach(mail_body)
+        annex['To'] = ",".join(toclause)
 
-        msg.attach(mail_body2)
+       
 
         try:
             smtp = smtplib.SMTP()
             smtp.connect(self.config.smtpserver)
             smtp.login(self.config.username, self.config.password)
-            smtp.sendmail(self.config.sender, toclause, msg.as_string())
+            smtp.sendmail(self.config.sender, toclause, annex.as_string())
         except Exception as e:
             print(e)
             print("发送失败")

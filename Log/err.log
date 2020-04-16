@@ -1,1 +1,2 @@
-[ERROR 2020-04-15 16:42:39]statusCode error, expected_code is 201, statusCode is 400 
+[ERROR 2020-04-16 13:30:12]邮件发送失败，请检查邮件配置
+[ERROR 2020-04-16 15:27:14]发送邮件失败，请检查邮件配置

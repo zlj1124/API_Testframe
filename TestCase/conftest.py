@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2018/8/1 下午2:37
-# @Author  : WangJuan
-# @File    : conftest.py
+
 
 """
 
@@ -26,12 +24,12 @@ from Common import Consts
 
 @pytest.fixture()
 def action():
-    # 定义环境
-    env = Consts.API_ENVIRONMENT_RELEASE
+    # 定义环境 
+    env = Consts.API_ENVIRONMENT_qiye6
     # 定义报告中environment
     conf = Config()
-    # host = conf.host_release
-    # tester = conf.tester_release
+    host = conf.host_qiye6
+    tester = conf.tester
     # allure.environment(environment=env)
     # allure.environment(hostname=host)
     # allure.environment(tester=tester)

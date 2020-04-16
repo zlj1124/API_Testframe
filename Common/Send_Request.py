@@ -24,9 +24,9 @@ class Request:
         """
         conf = Config()
         data = Datas()
-        host = conf.host_debug
-        url = conf.tokenHost_debug
-        data = eval(conf.loginInfo_debug)
+        host = conf.host_qiye6
+        url = conf.tokenHost_qiye6
+        data = eval(conf.loginInfo_qiye6)
         self.headers = eval(conf.headers)
         response = requests.post(url=url, data=data)
         auth = "JWT " + response.json()["token"]

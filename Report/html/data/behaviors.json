@@ -1,48 +1,22 @@
 {
-  "features" : [ {
-    "title" : "Without feature",
-    "statistic" : {
-      "total" : 2,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 2
-    },
-    "stories" : [ {
-      "uid" : "1617832c25c6ae39",
-      "title" : "Without story",
-      "statistic" : {
-        "total" : 2,
-        "passed" : 0,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 2
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Datas",
+    "children" : [ {
+      "name" : "test_login_01",
+      "uid" : "67bbcc617adb532f",
+      "parentUid" : "e3ceb14c89f1370e8a34c81a68cdf090",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587022429198,
+        "stop" : 1587022429379,
+        "duration" : 181
       },
-      "testCases" : [ {
-        "uid" : "2b487e139ec72b4a",
-        "name" : "test_collections",
-        "title" : "Test collections",
-        "time" : {
-          "start" : 1559550801138,
-          "stop" : 1559550801138,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      }, {
-        "uid" : "d14265bf9fca7092",
-        "name" : "test_personal",
-        "title" : "Test personal",
-        "time" : {
-          "start" : 1559550801138,
-          "stop" : 1559550801138,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      } ]
-    } ]
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e3ceb14c89f1370e8a34c81a68cdf090"
   } ]
 }

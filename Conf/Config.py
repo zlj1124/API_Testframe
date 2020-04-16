@@ -9,11 +9,10 @@ import os
 class Config:
     # titles:
     TITLE_PLAT= "qiye6_dev"
-    # TITLE_RELEASE = "online_release"
     TITLE_EMAIL = "mail"
 
     # values:
-    # [debug\release]
+
     VALUE_TESTER = "tester"
     VALUE_ENVIRONMENT = "environment"
     VALUE_VERSION_CODE = "versionCode"
@@ -41,26 +40,17 @@ class Config:
         self.conf_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.ini')
         self.xml_report_path = Config.path_dir+'/Report/xml'
         self.html_report_path = Config.path_dir+'/Report/html'
-
-       
-
         self.config.read(self.conf_path, encoding='utf-8')
-
-        self.tester_debug = self.get_conf(Config.TITLE_PLAT, Config.VALUE_TESTER)
-        # print(self.tester_debug) 
-        self.environment_debug = self.get_conf(Config.TITLE_PLAT, Config.VALUE_ENVIRONMENT)
-        self.versionCode_debug = self.get_conf(Config.TITLE_PLAT, Config.VALUE_VERSION_CODE)
-        self.host_debug = self.get_conf(Config.TITLE_PLAT, Config.VALUE_HOST)
-        self.tokenHost_debug = self.get_conf(Config.TITLE_PLAT, Config.VALUE_LOGIN_HOST)
-        self.loginInfo_debug = self.get_conf(Config.TITLE_PLAT, Config.VALUE_LOGIN_INFO)
+        # 平台信息
+        self.tester = self.get_conf(Config.TITLE_PLAT, Config.VALUE_TESTER)
+        self.environment_qiye6 = self.get_conf(Config.TITLE_PLAT, Config.VALUE_ENVIRONMENT)
+        self.versionCode_qiye6= self.get_conf(Config.TITLE_PLAT, Config.VALUE_VERSION_CODE)
+        self.host_qiye6= self.get_conf(Config.TITLE_PLAT, Config.VALUE_HOST)
+        self.tokenHost_qiye6 = self.get_conf(Config.TITLE_PLAT, Config.VALUE_LOGIN_HOST)
+        self.loginInfo_qiye6 = self.get_conf(Config.TITLE_PLAT, Config.VALUE_LOGIN_INFO)
         self.headers = self.get_conf(Config.TITLE_PLAT,Config.VALUE_HEADER)
-        # self.tester_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_TESTER)
-        # self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_ENVIRONMENT)
-        # self.versionCode_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_VERSION_CODE)
-        # self.host_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_HOST)
-        # self.loginHost_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_LOGIN_HOST)
-        # self.loginInfo_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_LOGIN_INFO)
-
+        
+        # 邮件
         self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
         self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)
         self.receiver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_RECEIVER)
