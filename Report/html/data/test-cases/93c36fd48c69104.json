@@ -1,12 +1,12 @@
 {
-  "uid" : "2bf3f3f6c6a982d6",
+  "uid" : "93c36fd48c69104",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587020326509,
-    "stop" : 1587020326687,
-    "duration" : 178
+    "start" : 1587093680321,
+    "stop" : 1587093680503,
+    "duration" : 182
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "action",
     "time" : {
-      "start" : 1587020326322,
-      "stop" : 1587020326322,
-      "duration" : 0
+      "start" : 1587093680145,
+      "stop" : 1587093680146,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "getdata",
     "time" : {
-      "start" : 1587020326322,
-      "stop" : 1587020326506,
-      "duration" : 184
+      "start" : 1587093680146,
+      "stop" : 1587093680319,
+      "duration" : 173
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,9 +49,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "82f5a50b0268415",
+      "uid" : "1dce73cf0550fc8",
       "name" : "log",
-      "source" : "82f5a50b0268415.txt",
+      "source" : "1dce73cf0550fc8.txt",
       "type" : "text/plain",
       "size" : 3973
     } ],
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587020326687,
-      "stop" : 1587020326687,
+      "start" : 1587093680503,
+      "stop" : 1587093680503,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "79920-MainThread"
+    "value" : "92232-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2bf3f3f6c6a982d6.json",
+  "source" : "93c36fd48c69104.json",
   "parameterValues" : [ ]
 }

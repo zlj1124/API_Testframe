@@ -8,8 +8,8 @@
 
 # 接口全局配置
 API_ENVIRONMENT_qiye6= 'qiye6'
-# API_ENVIRONMENT_RELEASE = 'release'
-# API_ENVIRONMENT_RELEASE = 'debug'
+# API_ENVIRONMENT_hz = 'hz'
+
 
 # 接口响应时间list，单位毫秒
 STRESS_LIST = []

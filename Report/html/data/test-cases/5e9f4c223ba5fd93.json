@@ -1,12 +1,12 @@
 {
-  "uid" : "f4fd93c03c23ab24",
+  "uid" : "5e9f4c223ba5fd93",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587022031994,
-    "stop" : 1587022032173,
-    "duration" : 179
+    "start" : 1587022213897,
+    "stop" : 1587022214077,
+    "duration" : 180
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "getdata",
     "time" : {
-      "start" : 1587022031819,
-      "stop" : 1587022031991,
-      "duration" : 172
+      "start" : 1587022213691,
+      "stop" : 1587022213895,
+      "duration" : 204
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "action",
     "time" : {
-      "start" : 1587022031819,
-      "stop" : 1587022031819,
+      "start" : 1587022213690,
+      "stop" : 1587022213690,
       "duration" : 0
     },
     "status" : "passed",
@@ -49,11 +49,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "85939b5da1914f94",
+      "uid" : "fa97bfeee2fbb0",
       "name" : "log",
-      "source" : "85939b5da1914f94.txt",
+      "source" : "fa97bfeee2fbb0.txt",
       "type" : "text/plain",
-      "size" : 3972
+      "size" : 3973
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587022032174,
-      "stop" : 1587022032174,
+      "start" : 1587022214078,
+      "stop" : 1587022214078,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,11 +78,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
     "name" : "story",
     "value" : "Datas"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
   }, {
     "name" : "parentSuite",
     "value" : "TestCase"
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "80633-MainThread"
+    "value" : "80848-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f4fd93c03c23ab24.json",
+  "source" : "5e9f4c223ba5fd93.json",
   "parameterValues" : [ ]
 }

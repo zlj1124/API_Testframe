@@ -1,12 +1,12 @@
 {
-  "uid" : "8f0e5ef105f0e5e7",
+  "uid" : "33f8590732a7670f",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587006054428,
-    "stop" : 1587006054580,
-    "duration" : 152
+    "start" : 1587016631491,
+    "stop" : 1587016631672,
+    "duration" : 181
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "getdata",
     "time" : {
-      "start" : 1587006054269,
-      "stop" : 1587006054425,
-      "duration" : 156
+      "start" : 1587016631312,
+      "stop" : 1587016631486,
+      "duration" : 174
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "action",
     "time" : {
-      "start" : 1587006054268,
-      "stop" : 1587006054269,
+      "start" : 1587016631311,
+      "stop" : 1587016631312,
       "duration" : 1
     },
     "status" : "passed",
@@ -49,9 +49,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "582a9065e6578954",
+      "uid" : "4fd1c0cc1e661941",
       "name" : "log",
-      "source" : "582a9065e6578954.txt",
+      "source" : "4fd1c0cc1e661941.txt",
       "type" : "text/plain",
       "size" : 3973
     } ],
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587006054581,
-      "stop" : 1587006054581,
+      "start" : 1587016631673,
+      "stop" : 1587016631673,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "76207-MainThread"
+    "value" : "78928-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8f0e5ef105f0e5e7.json",
+  "source" : "33f8590732a7670f.json",
   "parameterValues" : [ ]
 }

@@ -9,8 +9,11 @@ from Conf.Config import Config
 from Common import Send_Request
 from Common import Consts
 from Common import Assert
-
-
+from Common.DB_sql import DbConnect
+local_db=DbConnect()
+# ret=local_db.select_sql(
+#             "id","vehicleFrameNo","create_time","truck_truck","deleted","0","create_time"
+#             ) 
  
 class TestLogin:
 

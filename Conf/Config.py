@@ -10,6 +10,7 @@ class Config:
     # titles:
     TITLE_PLAT= "qiye6_dev"
     TITLE_EMAIL = "mail"
+    TITLE_DB = "DB_qiye6"
 
     # values:
 
@@ -27,6 +28,15 @@ class Config:
     VALUE_RECEIVER = "receiver"
     VALUE_USERNAME = "username"
     VALUE_PASSWORD = "password"
+ 
+    #[DB]
+    VALUE_HOST = "host"
+    VALUE_PORT = "port"
+    VALUE_USER = "user"
+    VALUE_PASSWORD = "password"
+    VALUE_NAME = "db"
+    VALUE_CHARSET = "charset"
+
 
     # path
     path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
@@ -56,6 +66,17 @@ class Config:
         self.receiver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_RECEIVER)
         self.username = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_USERNAME)
         self.password = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_PASSWORD)
+
+        #数据库
+        self.db_qiye6host = self.get_conf(Config.TITLE_DB, Config.VALUE_HOST)
+        self.db_qiye6port = self.get_conf(Config.TITLE_DB, Config.VALUE_PORT)
+        self.db_qiye6user = self.get_conf(Config.TITLE_DB, Config.VALUE_USER)
+        self.db_qiye6password = self.get_conf(Config.TITLE_DB,Config.VALUE_PASSWORD)
+        self.db_qiye6name = self.get_conf(Config.TITLE_DB, Config.VALUE_NAME)
+        self.db_qiye6charset = self.get_conf(Config.TITLE_DB, Config.VALUE_CHARSET)
+
+
+
 
     def get_conf(self, title, value):
         """

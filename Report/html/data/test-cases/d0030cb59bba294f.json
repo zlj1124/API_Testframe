@@ -1,12 +1,12 @@
 {
-  "uid" : "6331d5a8bac66f8c",
+  "uid" : "d0030cb59bba294f",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587008462968,
-    "stop" : 1587008463151,
-    "duration" : 183
+    "start" : 1587022429198,
+    "stop" : 1587022429379,
+    "duration" : 181
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "action",
+    "name" : "getdata",
     "time" : {
-      "start" : 1587008462787,
-      "stop" : 1587008462788,
-      "duration" : 1
+      "start" : 1587022429019,
+      "stop" : 1587022429195,
+      "duration" : 176
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "getdata",
+    "name" : "action",
     "time" : {
-      "start" : 1587008462788,
-      "stop" : 1587008462964,
-      "duration" : 176
+      "start" : 1587022429019,
+      "stop" : 1587022429019,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,9 +49,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7fe6c67bba54e334",
+      "uid" : "c5e130347efb2e5f",
       "name" : "log",
-      "source" : "7fe6c67bba54e334.txt",
+      "source" : "c5e130347efb2e5f.txt",
       "type" : "text/plain",
       "size" : 3972
     } ],
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587008463151,
-      "stop" : 1587008463151,
+      "start" : 1587022429379,
+      "stop" : 1587022429379,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "77377-MainThread"
+    "value" : "81003-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6331d5a8bac66f8c.json",
+  "source" : "d0030cb59bba294f.json",
   "parameterValues" : [ ]
 }

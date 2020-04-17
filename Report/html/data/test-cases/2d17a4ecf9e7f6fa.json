@@ -1,12 +1,12 @@
 {
-  "uid" : "9cb96d2446ad43b5",
+  "uid" : "2d17a4ecf9e7f6fa",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587022429198,
-    "stop" : 1587022429379,
-    "duration" : 181
+    "start" : 1587020291391,
+    "stop" : 1587020291600,
+    "duration" : 209
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "getdata",
     "time" : {
-      "start" : 1587022429019,
-      "stop" : 1587022429195,
-      "duration" : 176
+      "start" : 1587020291216,
+      "stop" : 1587020291389,
+      "duration" : 173
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "action",
     "time" : {
-      "start" : 1587022429019,
-      "stop" : 1587022429019,
+      "start" : 1587020291216,
+      "stop" : 1587020291216,
       "duration" : 0
     },
     "status" : "passed",
@@ -49,11 +49,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "46b0f5efe98a038f",
+      "uid" : "4033d2717a601297",
       "name" : "log",
-      "source" : "46b0f5efe98a038f.txt",
+      "source" : "4033d2717a601297.txt",
       "type" : "text/plain",
-      "size" : 3972
+      "size" : 3973
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587022429379,
-      "stop" : 1587022429379,
+      "start" : 1587020291600,
+      "stop" : 1587020291600,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "81003-MainThread"
+    "value" : "79847-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9cb96d2446ad43b5.json",
+  "source" : "2d17a4ecf9e7f6fa.json",
   "parameterValues" : [ ]
 }

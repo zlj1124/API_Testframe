@@ -1,10 +1,10 @@
 [ {
-  "uid" : "88c18ae418f92319",
+  "uid" : "76c2e0d16f04fcc0",
   "name" : "test_login_01",
   "time" : {
-    "start" : 1587024517289,
-    "stop" : 1587024517465,
-    "duration" : 176
+    "start" : 1587093858395,
+    "stop" : 1587093858573,
+    "duration" : 178
   },
   "status" : "passed",
   "severity" : "blocker"

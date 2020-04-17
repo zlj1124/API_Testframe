@@ -1,11 +1,11 @@
 {
-  "uid" : "c2042f32d1965ee8",
+  "uid" : "7f8ba63581e4feec",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1587015008368,
-    "stop" : 1587015008548,
+    "start" : 1587020651327,
+    "stop" : 1587020651507,
     "duration" : 180
   },
   "description" : "\n            用例描述：login接口\n        ",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "getdata",
     "time" : {
-      "start" : 1587015008189,
-      "stop" : 1587015008364,
-      "duration" : 175
+      "start" : 1587020651144,
+      "stop" : 1587020651324,
+      "duration" : 180
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "action",
     "time" : {
-      "start" : 1587015008189,
-      "stop" : 1587015008189,
-      "duration" : 0
+      "start" : 1587020651143,
+      "stop" : 1587020651144,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,9 +49,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "28758cb3b0a859ee",
+      "uid" : "572fc7eaee93bda0",
       "name" : "log",
-      "source" : "28758cb3b0a859ee.txt",
+      "source" : "572fc7eaee93bda0.txt",
       "type" : "text/plain",
       "size" : 3973
     } ],
@@ -64,8 +64,8 @@
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1587015008549,
-      "stop" : 1587015008549,
+      "start" : 1587020651508,
+      "stop" : 1587020651508,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,11 +78,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "Datas"
-  }, {
     "name" : "severity",
     "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Datas"
   }, {
     "name" : "parentSuite",
     "value" : "TestCase"
@@ -97,7 +97,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "78411-MainThread"
+    "value" : "80063-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -119,6 +119,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c2042f32d1965ee8.json",
+  "source" : "7f8ba63581e4feec.json",
   "parameterValues" : [ ]
 }

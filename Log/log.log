@@ -69,3 +69,11 @@
 [INFO 2020-04-16 16:08:36]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
 [INFO 2020-04-16 16:08:41]邮件发送成功
 [INFO 2020-04-16 16:17:53]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-17 11:20:21]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-17 11:20:22]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-17 11:20:27]邮件发送成功
+[INFO 2020-04-17 11:21:19]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-17 11:21:20]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-04-17 11:21:23]邮件发送成功
+[INFO 2020-04-17 11:24:17]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-04-17 11:24:17]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
