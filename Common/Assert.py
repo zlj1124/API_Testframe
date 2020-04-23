@@ -109,5 +109,5 @@ class Assertions:
             Consts.RESULT_LIST.append('fail')
 
             raise
-
-
+  
+    

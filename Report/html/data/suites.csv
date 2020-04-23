@@ -1,4 +1,22 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Apr 17 11:24:18 CST 2020","Fri Apr 17 11:24:18 CST 2020","178","TestCase","test_login","TestLogin","","","test_login_01","
+"broken","Thu Apr 23 15:04:11 CST 2020","Thu Apr 23 15:04:11 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[username]","
             用例描述：login接口
+        "
+"passed","Thu Apr 23 15:38:07 CST 2020","Thu Apr 23 15:38:07 CST 2020","152","TestCase","test_login","TestLogin","","","test_login_01","
+            用例描述：login接口
+        "
+"passed","Thu Apr 23 15:28:25 CST 2020","Thu Apr 23 15:28:25 CST 2020","2","TestCase","test_login","TestLogin","","","test_login_01[data10]","
+            用例描述：login接口
+        "
+"broken","Thu Apr 23 15:22:35 CST 2020","Thu Apr 23 15:22:35 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[100860]","
+            用例描述：login接口
+        "
+"broken","Thu Apr 23 15:04:11 CST 2020","Thu Apr 23 15:04:11 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[password]","
+            用例描述：login接口
+        "
+"broken","Thu Apr 23 15:22:35 CST 2020","Thu Apr 23 15:22:35 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[100861]","
+            用例描述：login接口
+        "
+"passed","Mon Apr 20 10:12:19 CST 2020","Mon Apr 20 10:12:20 CST 2020","394","TestCase","test_profile","TestProfile","","","test_basic_02","
+            用例描述：profile接口
         "

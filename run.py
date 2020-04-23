@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     pytest.main(args)
     cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path)
-    print(cmd)
+    # print(cmd)
     try:
         shell.invoke(cmd)
     except Exception:

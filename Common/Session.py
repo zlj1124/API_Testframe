@@ -30,7 +30,7 @@ class Session:
            
             "Content-Type": "application/json;charset=UTF-8"
         }
-        print(env)
+        
         if env == 'qiye6':
             
             parm={"username":"10086","password":"10086"}    
@@ -40,8 +40,7 @@ class Session:
           
           
             auth = "JWT " + response.json()["token"]
-            # self.headers["Authorization"] = auth
-            # print(response.set_cookie("token", auth))
+        
             print(response.cookies.get_dict())          
             self.log.debug('cookies: %s' % response.cookies.get_dict())
             return response.cookies.get_dict()

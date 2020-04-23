@@ -17,7 +17,7 @@ local_db=DbConnect()
  
 class TestLogin:
 
-
+   
     @pytest.fixture()
     def getdata(self):
         print('before')
@@ -26,21 +26,24 @@ class TestLogin:
         self.request = Send_Request.Request()
         self.host = conf.host_qiye6
         self.urls = self.data.url
+        
 
         yield
 
         print('over')
   
-    # @pytest.allure.feature('Login')
+    @allure.feature('Login')
     @allure.severity('blocker')
-    @allure.story('Datas')
-    def test_login_01(self, action,getdata):
+    @allure.story('测试登录成功')
+    # @pytest.mark.parametrize("data1,", [("10086", "10086"),] )
+    def test_login_01(self, action,getdata,):
         """
             用例描述：login接口
         """
+
         api_url = self.host + self.urls[1]     
         params = json.dumps(self.data.data[1]['postdata'])
-        response = self.request.post_request(api_url, params, )
+        response = self.request.post_request(api_url,  params)
     
         assert response['code'] == 200
         Consts.RESULT_LIST.append('True')

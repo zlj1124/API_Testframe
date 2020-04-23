@@ -19,7 +19,7 @@ def get_parameter(name):
 
 
 class Datas:
-    # def __init__(self):
+
     log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/Datas.yaml')
     params = get_parameter('Datas')
     url = []

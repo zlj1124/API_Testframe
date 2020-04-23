@@ -1,10 +1,70 @@
 [ {
-  "uid" : "76c2e0d16f04fcc0",
+  "uid" : "67d0deccc8842efe",
+  "name" : "test_login_01[username]",
+  "time" : {
+    "start" : 1587625451743,
+    "stop" : 1587625451743,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "9a937fad9e18260a",
   "name" : "test_login_01",
   "time" : {
-    "start" : 1587093858395,
-    "stop" : 1587093858573,
-    "duration" : 178
+    "start" : 1587627487399,
+    "stop" : 1587627487551,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "647174f6f7e1fc65",
+  "name" : "test_login_01[data10]",
+  "time" : {
+    "start" : 1587626905936,
+    "stop" : 1587626905938,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "45cd8a077f5e90de",
+  "name" : "test_login_01[100860]",
+  "time" : {
+    "start" : 1587626555473,
+    "stop" : 1587626555473,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "7cab81e8ce8fd816",
+  "name" : "test_login_01[password]",
+  "time" : {
+    "start" : 1587625451908,
+    "stop" : 1587625451908,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "89e760a6e58a4fd4",
+  "name" : "test_login_01[100861]",
+  "time" : {
+    "start" : 1587626555700,
+    "stop" : 1587626555700,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "d08de9d437f4073e",
+  "name" : "test_basic_02",
+  "time" : {
+    "start" : 1587348739814,
+    "stop" : 1587348740208,
+    "duration" : 394
   },
   "status" : "passed",
   "severity" : "blocker"

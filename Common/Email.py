@@ -25,6 +25,8 @@ class SendMail:
     def sendMail(self):
         stress_body = Consts.STRESS_LIST
         result_body = Consts.RESULT_LIST
+        print("stress_body:{}".format(stress_body))
+        print("result_body:{}".format(result_body))
         test_dir = os.path.join(os.getcwd(), "report/html")
         rep_dir= os.path.join(test_dir,'index.html')
         with open(rep_dir, "rb") as f:
