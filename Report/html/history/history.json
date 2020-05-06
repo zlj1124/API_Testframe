@@ -9,32 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7cab81e8ce8fd816",
+      "uid" : "835e22acc8089eb3",
       "status" : "broken",
       "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('login', <FixtureRequest for <Function test_login_01[password]>>)",
       "time" : {
         "start" : 1587625451908,
         "stop" : 1587625451908,
         "duration" : 0
-      }
-    } ]
-  },
-  "ad46b58c6f38a9e8de6b92b522c7cbff" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9a937fad9e18260a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587627487399,
-        "stop" : 1587627487551,
-        "duration" : 152
       }
     } ]
   },
@@ -48,12 +29,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "647174f6f7e1fc65",
+      "uid" : "ff4d79fb917bf47c",
       "status" : "passed",
       "time" : {
         "start" : 1587626905936,
         "stop" : 1587626905938,
         "duration" : 2
+      }
+    } ]
+  },
+  "ad46b58c6f38a9e8de6b92b522c7cbff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3966623506ecca25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588747948721,
+        "stop" : 1588747948875,
+        "duration" : 154
       }
     } ]
   },
@@ -67,7 +67,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d08de9d437f4073e",
+      "uid" : "6ce5e37f5d4d98af",
       "status" : "passed",
       "time" : {
         "start" : 1587348739814,
@@ -86,7 +86,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45cd8a077f5e90de",
+      "uid" : "a5d6bfe01c0396d4",
       "status" : "broken",
       "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('data', <FixtureRequest for <Function test_login_01[100860]>>)",
       "time" : {
@@ -106,7 +106,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "89e760a6e58a4fd4",
+      "uid" : "2a93c4c6697a700d",
       "status" : "broken",
       "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('data', <FixtureRequest for <Function test_login_01[100861]>>)",
       "time" : {
@@ -126,7 +126,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67d0deccc8842efe",
+      "uid" : "70ff3a603e018df7",
       "status" : "broken",
       "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('login', <FixtureRequest for <Function test_login_01[username]>>)",
       "time" : {

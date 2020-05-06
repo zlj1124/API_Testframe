@@ -7,7 +7,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('login', <FixtureRequest for <Function test_login_01[username]>>)",
       "children" : [ {
         "name" : "test_login_01[username]",
-        "uid" : "67d0deccc8842efe",
+        "uid" : "70ff3a603e018df7",
         "parentUid" : "9b32b748d8171ea8d971d3e6a5f47ab1",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('login', <FixtureRequest for <Function test_login_01[password]>>)",
       "children" : [ {
         "name" : "test_login_01[password]",
-        "uid" : "7cab81e8ce8fd816",
+        "uid" : "835e22acc8089eb3",
         "parentUid" : "cbf4ec954b46a590652a605e0e2c4344",
         "status" : "broken",
         "time" : {
@@ -41,7 +41,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('data', <FixtureRequest for <Function test_login_01[100860]>>)",
       "children" : [ {
         "name" : "test_login_01[100860]",
-        "uid" : "45cd8a077f5e90de",
+        "uid" : "a5d6bfe01c0396d4",
         "parentUid" : "92bf5e6f13f11c41c3dee230521a93e5",
         "status" : "broken",
         "time" : {
@@ -58,7 +58,7 @@
       "name" : "_pytest.fixtures.FixtureLookupError: ('data', <FixtureRequest for <Function test_login_01[100861]>>)",
       "children" : [ {
         "name" : "test_login_01[100861]",
-        "uid" : "89e760a6e58a4fd4",
+        "uid" : "2a93c4c6697a700d",
         "parentUid" : "ab4f3eba903da01d1bfa0201b4e06cbf",
         "status" : "broken",
         "time" : {

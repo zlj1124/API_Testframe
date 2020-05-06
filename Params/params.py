@@ -29,6 +29,9 @@ class Datas:
      
         url.append(params[i]['url'])
         data.append(params[i]['data'])
-     
+
+if __name__ == "__main__":
+    data = Datas()     
+    data.url
   
    

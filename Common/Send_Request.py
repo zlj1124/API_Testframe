@@ -31,8 +31,8 @@ class Request:
         response = requests.post(url=url, data=data)
         auth = "JWT " + response.json()["token"]
         self.headers["Authorization"] = auth
-        # self.session = Session.Session()
-        # self.get_session = self.session.get_session(env)
+        self.session = Session.Session()
+        self.get_session = self.session.get_session()
        
         
 
@@ -59,6 +59,7 @@ class Request:
             else:
 
                 response = requests.get(url=url, params=data, headers=self.headers )
+                # response = requests.get(url=url, headers=header, cookies=self.get_session)
              
 
         except requests.RequestException as e:

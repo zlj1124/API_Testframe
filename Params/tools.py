@@ -16,7 +16,7 @@ def parse():
     for root, dirs, files in os.walk(path_ya):
         for name in files:
             watch_file_path = os.path.join(root, name)
-            with open(watch_file_path, 'r') as f:
+            with open(watch_file_path, 'rb') as f:
                 page = yaml.safe_load(f)
                 pages.update(page)
         return pages
@@ -34,7 +34,7 @@ class GetPages:
             for parameter in parameters:
                 data_list.append(parameter)
             _page_list[page] = data_list
-
+        # print(_page_list)
         return _page_list
 
 

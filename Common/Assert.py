@@ -6,16 +6,14 @@
 @Time    :   2020/04/15 17:00:48
 '''
 
-
-
-
 """
 封装Assert方法
 
 """
+import json
 from Common import Log
 from Common import Consts
-import json
+
 
 
 class Assertions:
@@ -92,6 +90,18 @@ class Assertions:
             Consts.RESULT_LIST.append('fail')
 
             raise
+
+    def assert_dbmsg(self,db_name, body,expected_msg):
+        """
+        验证response body是否和数据库信息一致
+        :param body:
+        :param expected_msg:
+        :return:
+        """
+        try:
+            pass
+        except :
+            pass
 
     def assert_time(self, time, expected_time):
         """

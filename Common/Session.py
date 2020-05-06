@@ -34,14 +34,14 @@ class Session:
         if env == 'qiye6':
             
             parm={"username":"10086","password":"10086"}    
-            session_debug = requests.session()
+            session = requests.session()
  
-            response = session_debug.post(url='http://192.168.3.21:30236/auth/login/', json=parm, headers=headers)
+            response = session.post(url='http://192.168.3.21:30236/auth/login/', json=parm, headers=headers)
           
           
             auth = "JWT " + response.json()["token"]
         
-            print(response.cookies.get_dict())          
+            # print(response.cookies.get_dict())          
             self.log.debug('cookies: %s' % response.cookies.get_dict())
             return response.cookies.get_dict()
 
