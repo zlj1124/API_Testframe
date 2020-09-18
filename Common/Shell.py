@@ -14,7 +14,8 @@ class Shell:
     def invoke(cmd):
         output, errors = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
         o = output.decode("utf-8")
-        print(o)
+        # print(o)
         return o
 if __name__ == "__main__":
-    s=Shell.invoke("ls")
+    s=Shell.invoke("pwd")
+    print(s)

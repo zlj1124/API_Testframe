@@ -1,3 +1,8 @@
+<!--
+ * @Descripttion: 
+ * @Author: zlj
+ * @Date: 2020-04-13 14:40:09
+-->
 # API_Automation
 基于Pytest+request+Allure的接口自动化框架
 
@@ -21,3 +26,51 @@
   
 ----
 
+
+## 目录结构
+```
+.
+├── Common
+│   ├── Assert.py  ————封装Assert
+│   ├── Consts.py  ————定义全局变量
+│   ├── DB_sql.py  ————连接数据库封装sql
+│   ├── Email.py  ————封装SMTP
+│   ├── Log.py   ————封装记录log方法
+│   ├── Send_Request.py ————封装request
+│   ├── Session.py ————创建session
+│   ├── Shell.py  ————封装shell命令
+│   ├── __init__.py
+│   
+├── Conf
+│   ├── Config.py ————封装读取配置ini文件
+│   ├── __init__.py
+│   └── config.ini ————定义配置文件
+│ 
+├── Log  ————日志记录
+│   ├── __init__.py
+│   ├── err.log
+│   └── log.log
+│ 
+├── Params
+│   ├── Param
+│   │   └── Datas.yml ————yaml数据源
+│   ├── __init__.py
+│   ├── params.py ————按照模块封装测试数据
+│   ├── parseExcel.py  ————封装读取Excel方法
+│   ├── tcData.xlsx ————excel数据源
+│   ├── tools.py ————封装读取Yaml方法
+│  
+├── Report  ————测试报告
+│   ├── html 
+│   └── xml
+│ 
+├── TestCase
+│   ├── conftest.py
+│   ├── test_login.py
+│   └── test_profile.py
+│ 
+└── run.py  ————核心代码，执行
+│
+├── README.md
+
+```

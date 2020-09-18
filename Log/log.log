@@ -164,3 +164,6 @@
 [INFO 2020-05-06 14:52:27]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
 [INFO 2020-05-06 14:52:27]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
 [DEBUG 2020-05-06 14:52:28]cookies: {}
+[INFO 2020-05-07 09:56:54]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-05-07 09:59:16]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-05-07 09:59:33]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml

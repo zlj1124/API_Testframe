@@ -1,4 +1,3 @@
-
 # -*- encoding: utf-8 -*-
 '''
 @File    :   run.py
@@ -46,10 +45,10 @@ if __name__ == '__main__':
         log.error('执行用例失败，请检查环境配置')
         raise
 
-    # try:
-    #     mail = Email.SendMail()
-    #     mail.sendMail()
-    # except Exception as e:
-    #     log.error('发送邮件失败，请检查邮件配置')
-    #     raise
+    try:
+        mail = Email.SendMail()
+        mail.sendMail()
+    except Exception as e:
+        log.error('发送邮件失败，请检查邮件配置')
+        raise
 
