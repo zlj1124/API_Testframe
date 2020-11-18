@@ -1,0 +1,118 @@
+{
+  "uid" : "d9d49868f2a09283",
+  "name" : "test_basic_02",
+  "fullName" : "TestCase.test_profile.TestProfile#test_basic_02",
+  "historyId" : "8480745145f36ed203fba505a6b2ba5b",
+  "time" : {
+    "start" : 1605685741222,
+    "stop" : 1605685741222,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：profile接口\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：profile接口\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'token'",
+  "statusTrace" : "self = <test_profile.TestProfile object at 0x11432ce48>\n\n    @pytest.fixture()\n    def getdata(self):\n        print('before')\n        conf = Config()\n        self.data = Datas()\n>       self.request = Send_Request.Request()\n\nTestCase/test_profile.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nCommon/Send_Request.py:35: in __init__\n    self.get_session = self.session.get_session()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <Common.Session.Session object at 0x11542efd0>, env = 'qiye6'\n\n    def get_session(self, env='qiye6'):\n        \"\"\"\n        获取session\n        :param env: 环境变量\n        :return:\n        \"\"\"\n        headers = {\n            \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\\\n                          Chrome/67.0.3396.99 Safari/537.36\",\n    \n    \n            \"Content-Type\": \"application/json;charset=UTF-8\"\n        }\n    \n        if env == 'qiye6':\n    \n            parm={\"username\":\"10086\",\"password\":\"10086\"}\n            session = requests.session()\n    \n            response = session.post(url='http://192.168.3.21:30236/auth/login/', json=parm, headers=headers)\n    \n    \n>           auth = \"JWT \" + response.json()[\"token\"]\nE           KeyError: 'token'\n\nCommon/Session.py:42: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "action",
+    "time" : {
+      "start" : 1605685741222,
+      "stop" : 1605685741222,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1605685741223,
+      "stop" : 1605685742633,
+      "duration" : 1410
+    },
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'token'\n",
+    "statusTrace" : "  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/_pytest/fixtures.py\", line 964, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/_pytest/fixtures.py\", line 788, in call_fixture_func\n    res = next(it)\n  File \"/Users/test/work/API_Testframe/TestCase/test_profile.py\", line 19, in getdata\n    self.request = Send_Request.Request()\n  File \"/Users/test/work/API_Testframe/Common/Send_Request.py\", line 35, in __init__\n    self.get_session = self.session.get_session()\n  File \"/Users/test/work/API_Testframe/Common/Session.py\", line 42, in get_session\n    auth = \"JWT \" + response.json()[\"token\"]\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述：profile接口\n        ",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'token'",
+    "statusTrace" : "self = <test_profile.TestProfile object at 0x11432ce48>\n\n    @pytest.fixture()\n    def getdata(self):\n        print('before')\n        conf = Config()\n        self.data = Datas()\n>       self.request = Send_Request.Request()\n\nTestCase/test_profile.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nCommon/Send_Request.py:35: in __init__\n    self.get_session = self.session.get_session()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <Common.Session.Session object at 0x11542efd0>, env = 'qiye6'\n\n    def get_session(self, env='qiye6'):\n        \"\"\"\n        获取session\n        :param env: 环境变量\n        :return:\n        \"\"\"\n        headers = {\n            \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\\\n                          Chrome/67.0.3396.99 Safari/537.36\",\n    \n    \n            \"Content-Type\": \"application/json;charset=UTF-8\"\n        }\n    \n        if env == 'qiye6':\n    \n            parm={\"username\":\"10086\",\"password\":\"10086\"}\n            session = requests.session()\n    \n            response = session.post(url='http://192.168.3.21:30236/auth/login/', json=parm, headers=headers)\n    \n    \n>           auth = \"JWT \" + response.json()[\"token\"]\nE           KeyError: 'token'\n\nCommon/Session.py:42: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "64a0cd529ce4f383",
+      "name" : "log",
+      "source" : "64a0cd529ce4f383.txt",
+      "type" : "text/plain",
+      "size" : 480
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "add profile"
+  }, {
+    "name" : "feature",
+    "value" : "Profile"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_profile"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProfile"
+  }, {
+    "name" : "host",
+    "value" : "Lettos-iMac.local"
+  }, {
+    "name" : "thread",
+    "value" : "10518-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9d49868f2a09283.json",
+  "parameterValues" : [ ]
+}

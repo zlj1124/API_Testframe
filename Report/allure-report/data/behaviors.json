@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "测试登录成功",
+      "children" : [ {
+        "name" : "test_login_01",
+        "uid" : "b19772bd75f0f571",
+        "parentUid" : "9caf9c561241aa962705434dae8786c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605596713468,
+          "stop" : 1605596713660,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9caf9c561241aa962705434dae8786c6"
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  } ]
+}

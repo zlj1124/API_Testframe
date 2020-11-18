@@ -167,3 +167,15 @@
 [INFO 2020-05-07 09:56:54]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
 [INFO 2020-05-07 09:59:16]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
 [INFO 2020-05-07 09:59:33]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-18 15:47:47]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-18 15:47:48]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-18 15:47:57]邮件发送成功
+[INFO 2020-11-18 15:48:58]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-18 15:48:58]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-18 15:49:05]邮件发送成功
+[INFO 2020-11-18 15:49:57]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-18 15:49:58]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[DEBUG 2020-11-18 15:49:59]cookies: {}
+[DEBUG 2020-11-18 15:50:00]cookies: {}
+[DEBUG 2020-11-18 15:50:00]cookies: {}
+[INFO 2020-11-18 15:50:06]邮件发送成功

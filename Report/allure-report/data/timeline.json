@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Lettos-iMac.local",
+    "children" : [ {
+      "name" : "88546-MainThread",
+      "children" : [ {
+        "name" : "test_login_01",
+        "uid" : "b19772bd75f0f571",
+        "parentUid" : "a43a56b6d36111866b263a18bbb8f759",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605596713468,
+          "stop" : 1605596713660,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a43a56b6d36111866b263a18bbb8f759"
+    } ],
+    "uid" : "844289fd9829137984195e4aecf6823c"
+  } ]
+}

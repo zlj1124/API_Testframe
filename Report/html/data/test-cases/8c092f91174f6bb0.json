@@ -1,0 +1,118 @@
+{
+  "uid" : "8c092f91174f6bb0",
+  "name" : "test_login_01",
+  "fullName" : "TestCase.test_login.TestLogin#test_login_01",
+  "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
+  "time" : {
+    "start" : 1605685669975,
+    "stop" : 1605685669975,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：login接口\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'token'",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x11219f278>\n\n    @pytest.fixture()\n    def getdata(self):\n        print('before')\n    \n        conf = Config()\n        self.data = Datas()\n>       self.request = Send_Request.Request()\n\nTestCase/test_login.py:28: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <Common.Send_Request.Request object at 0x1121a2668>\n\n    def __init__(self):\n        \"\"\"\n        :param env:\n        \"\"\"\n        conf = Config()\n        data = Datas()\n        host = conf.host_qiye6\n        url = conf.tokenHost_qiye6\n        data = eval(conf.loginInfo_qiye6)\n        self.headers = eval(conf.headers)\n        response = requests.post(url=url, data=data)\n>       auth = \"JWT \" + response.json()[\"token\"]\nE       KeyError: 'token'\n\nCommon/Send_Request.py:32: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1605685669976,
+      "stop" : 1605685672183,
+      "duration" : 2207
+    },
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'token'\n",
+    "statusTrace" : "  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/_pytest/fixtures.py\", line 964, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/_pytest/fixtures.py\", line 788, in call_fixture_func\n    res = next(it)\n  File \"/Users/test/work/API_Testframe/TestCase/test_login.py\", line 28, in getdata\n    self.request = Send_Request.Request()\n  File \"/Users/test/work/API_Testframe/Common/Send_Request.py\", line 32, in __init__\n    auth = \"JWT \" + response.json()[\"token\"]\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "action",
+    "time" : {
+      "start" : 1605685669976,
+      "stop" : 1605685669976,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述：login接口\n        ",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'token'",
+    "statusTrace" : "self = <test_login.TestLogin object at 0x11219f278>\n\n    @pytest.fixture()\n    def getdata(self):\n        print('before')\n    \n        conf = Config()\n        self.data = Datas()\n>       self.request = Send_Request.Request()\n\nTestCase/test_login.py:28: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <Common.Send_Request.Request object at 0x1121a2668>\n\n    def __init__(self):\n        \"\"\"\n        :param env:\n        \"\"\"\n        conf = Config()\n        data = Datas()\n        host = conf.host_qiye6\n        url = conf.tokenHost_qiye6\n        data = eval(conf.loginInfo_qiye6)\n        self.headers = eval(conf.headers)\n        response = requests.post(url=url, data=data)\n>       auth = \"JWT \" + response.json()[\"token\"]\nE       KeyError: 'token'\n\nCommon/Send_Request.py:32: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63a7e4fe7e941e45",
+      "name" : "log",
+      "source" : "63a7e4fe7e941e45.txt",
+      "type" : "text/plain",
+      "size" : 244
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试登录成功"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Lettos-iMac.local"
+  }, {
+    "name" : "thread",
+    "value" : "10454-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c092f91174f6bb0.json",
+  "parameterValues" : [ ]
+}

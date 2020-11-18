@@ -1,22 +1,22 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Apr 23 15:22:35 CST 2020","Thu Apr 23 15:22:35 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[100860]","
+"broken","Thu Apr 23 15:04:11 CST 2020","Thu Apr 23 15:04:11 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[password]","
             用例描述：login接口
         "
 "passed","Thu Apr 23 15:28:25 CST 2020","Thu Apr 23 15:28:25 CST 2020","2","TestCase","test_login","TestLogin","","","test_login_01[data10]","
             用例描述：login接口
         "
-"broken","Thu Apr 23 15:22:35 CST 2020","Thu Apr 23 15:22:35 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[100861]","
-            用例描述：login接口
-        "
 "broken","Thu Apr 23 15:04:11 CST 2020","Thu Apr 23 15:04:11 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[username]","
             用例描述：login接口
         "
-"broken","Thu Apr 23 15:04:11 CST 2020","Thu Apr 23 15:04:11 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[password]","
-            用例描述：login接口
-        "
-"passed","Wed May 06 14:52:28 CST 2020","Wed May 06 14:52:28 CST 2020","154","TestCase","test_login","TestLogin","","","test_login_01","
-            用例描述：login接口
-        "
-"passed","Mon Apr 20 10:12:19 CST 2020","Mon Apr 20 10:12:20 CST 2020","394","TestCase","test_profile","TestProfile","","","test_basic_02","
+"passed","Wed Nov 18 15:50:00 CST 2020","Wed Nov 18 15:50:02 CST 2020","1926","TestCase","test_profile","TestProfile","","","test_basic_02","
             用例描述：profile接口
+        "
+"broken","Thu Apr 23 15:22:35 CST 2020","Thu Apr 23 15:22:35 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[100860]","
+            用例描述：login接口
+        "
+"broken","Thu Apr 23 15:22:35 CST 2020","Thu Apr 23 15:22:35 CST 2020","0","TestCase","test_login","TestLogin","","","test_login_01[100861]","
+            用例描述：login接口
+        "
+"passed","Wed Nov 18 15:49:59 CST 2020","Wed Nov 18 15:49:59 CST 2020","172","TestCase","test_login","TestLogin","","","test_login_01","
+            用例描述：login接口
         "

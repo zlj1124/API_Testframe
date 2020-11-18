@@ -33,7 +33,7 @@ class Session:
         
         if env == 'qiye6':
             
-            parm={"username":"10086","password":"10086"}    
+            parm={"username":"10086","password":"rootroot"}    
             session = requests.session()
  
             response = session.post(url='http://192.168.3.21:30236/auth/login/', json=parm, headers=headers)
