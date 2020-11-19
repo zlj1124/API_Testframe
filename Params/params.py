@@ -24,7 +24,7 @@ class Datas:
     params = get_parameter('Datas')
     url = []
     data = []
-    print(params)
+    # print(params)
 
     for i in range(0, len(params)):
      

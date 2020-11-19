@@ -1,0 +1,138 @@
+{
+  "uid" : "6b25a629e1d64ca3",
+  "name" : "test_login_01",
+  "fullName" : "TestCase.test_login.TestLogin#test_login_01",
+  "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
+  "time" : {
+    "start" : 1605771289558,
+    "stop" : 1605771289558,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：login接口\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: a bytes-like object is required, not 'dict'",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x1194d9518>\n\n    @pytest.fixture()\n    def get_data(self):\n        \"\"\"\n            获取测试数据\n        \"\"\"\n        print('before')\n    \n        conf = Config()\n        self.data = Datas()\n        self.request = Send_Request.Request()\n        self.host = conf.host_qiye6\n        self.urls = self.data.url\n        with allure.step(\"获取测试数据\"):\n            allure.attach(name='请求地址', body=self.host)\n            allure.attach(name='请求路径', body=self.urls[1])\n>           allure.attach(name='请求数据', body=self.data.data[1]['postdata'])\n\nTestCase/test_login.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/_allure.py:164: in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_pytest/listener.py:215: in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/reporter.py:117: in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <allure_commons.logger.AllureFileLogger object at 0x10aee9940>, body = {'password': 'rootroot', 'username': '10086'}\nfile_name = 'd7b591c4-5be6-46e9-98f2-8ec1f8e00d26-attachment.attach'\n\n    @hookimpl\n    def report_attached_data(self, body, file_name):\n        destination = os.path.join(self._report_dir, file_name)\n        with open(destination, 'wb') as attached_file:\n            if isinstance(body, text_type):\n                attached_file.write(body.encode('utf-8'))\n            else:\n>               attached_file.write(body)\nE               TypeError: a bytes-like object is required, not 'dict'\n\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/logger.py:57: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_data",
+    "time" : {
+      "start" : 1605771289559,
+      "stop" : 1605771289942,
+      "duration" : 383
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: a bytes-like object is required, not 'dict'\n",
+    "statusTrace" : "  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/_pytest/fixtures.py\", line 964, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/_pytest/fixtures.py\", line 788, in call_fixture_func\n    res = next(it)\n  File \"/Users/test/work/API_Testframe/TestCase/test_login.py\", line 37, in get_data\n    allure.attach(name='请求数据', body=self.data.data[1]['postdata'])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/_allure.py\", line 164, in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py\", line 286, in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 93, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 87, in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 208, in _multicall\n    return outcome.get_result()\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 80, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_pytest/listener.py\", line 215, in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/reporter.py\", line 117, in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py\", line 286, in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 93, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 87, in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 208, in _multicall\n    return outcome.get_result()\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 80, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/logger.py\", line 57, in report_attached_data\n    attached_file.write(body)\n",
+    "steps" : [ {
+      "name" : "获取测试数据",
+      "time" : {
+        "start" : 1605771289938,
+        "stop" : 1605771289940,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: a bytes-like object is required, not 'dict'\n",
+      "statusTrace" : "  File \"/Users/test/work/API_Testframe/TestCase/test_login.py\", line 37, in get_data\n    allure.attach(name='请求数据', body=self.data.data[1]['postdata'])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/_allure.py\", line 164, in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py\", line 286, in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 93, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 87, in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 208, in _multicall\n    return outcome.get_result()\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 80, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_pytest/listener.py\", line 215, in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/reporter.py\", line 117, in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py\", line 286, in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 93, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 87, in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 208, in _multicall\n    return outcome.get_result()\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 80, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/logger.py\", line 57, in report_attached_data\n    attached_file.write(body)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1b2c3431c630d0c6",
+        "name" : "请求地址",
+        "source" : "1b2c3431c630d0c6.attach",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "f42eb1ba206fdce4",
+        "name" : "请求路径",
+        "source" : "f42eb1ba206fdce4.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "e3e8cadffdbe9ef5",
+        "name" : "请求数据",
+        "source" : "e3e8cadffdbe9ef5.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述：login接口\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: a bytes-like object is required, not 'dict'",
+    "statusTrace" : "self = <test_login.TestLogin object at 0x1194d9518>\n\n    @pytest.fixture()\n    def get_data(self):\n        \"\"\"\n            获取测试数据\n        \"\"\"\n        print('before')\n    \n        conf = Config()\n        self.data = Datas()\n        self.request = Send_Request.Request()\n        self.host = conf.host_qiye6\n        self.urls = self.data.url\n        with allure.step(\"获取测试数据\"):\n            allure.attach(name='请求地址', body=self.host)\n            allure.attach(name='请求路径', body=self.urls[1])\n>           allure.attach(name='请求数据', body=self.data.data[1]['postdata'])\n\nTestCase/test_login.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/_allure.py:164: in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_pytest/listener.py:215: in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/reporter.py:117: in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <allure_commons.logger.AllureFileLogger object at 0x10aee9940>, body = {'password': 'rootroot', 'username': '10086'}\nfile_name = 'd7b591c4-5be6-46e9-98f2-8ec1f8e00d26-attachment.attach'\n\n    @hookimpl\n    def report_attached_data(self, body, file_name):\n        destination = os.path.join(self._report_dir, file_name)\n        with open(destination, 'wb') as attached_file:\n            if isinstance(body, text_type):\n                attached_file.write(body.encode('utf-8'))\n            else:\n>               attached_file.write(body)\nE               TypeError: a bytes-like object is required, not 'dict'\n\n/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/logger.py:57: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6de5b0b45c0bae3c",
+      "name" : "log",
+      "source" : "6de5b0b45c0bae3c.txt",
+      "type" : "text/plain",
+      "size" : 552
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试登录成功"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Lettos-iMac.local"
+  }, {
+    "name" : "thread",
+    "value" : "31850-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b25a629e1d64ca3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1 @@
+{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJ1c2VybmFtZSI6IjEwMDg2IiwiZXhwIjoxNjkyMTczODYzLCJlbWFpbCI6IiJ9.mgujGsTBGPqZBhku8QxoR4uIEc7CejgGqH7aTLfiCBU', 'user_id': 3, 'username': '10086', 'profile': {'id': 91, 'user': 3, 'city': 1, 'phone': '10086', 'name': '10086', 'rank': 'platform_company', 'role': 'super_admin'}}

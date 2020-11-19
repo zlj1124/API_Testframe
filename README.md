@@ -23,7 +23,7 @@
 `run.py` 核心代码。定义并执行用例集，生成报告
 
 ##### 打开报告： allure open Report/html
-  
+ ![报告](./Report/报告.png) 
 ----
 
 
