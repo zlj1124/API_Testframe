@@ -22,9 +22,7 @@
 
 `run.py` 核心代码。定义并执行用例集，生成报告
 
-##### 打开报告： allure open Report/html
- ![报告](./Report/报告.png) 
-----
+
 
 
 ## 目录结构
@@ -74,3 +72,10 @@
 ├── README.md
 
 ```
+
+##### 打开报告： allure open Report/html
+ ![报告](./Report/报告.png) 
+----
+
+集成Jenkins进行持续构建：
+ ![jenkins](./Report/jenkins.png) 
