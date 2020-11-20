@@ -9,7 +9,7 @@
 """
 运行用例集：
     python3 run.py
-
+    或者直接pytest
 # '--allure_severities=critical, blocker'
 # '--allure_stories=测试模块_demo1, 测试模块_demo2'
 # '--allure_features=测试features'
@@ -34,7 +34,8 @@ if __name__ == '__main__':
     html_report_path = conf.html_report_path
 
     # 定义测试集
-    args = ['-s', '-q', '--alluredir', xml_report_path]
+    # args = ['-s', '-q', '--alluredir', xml_report_path] #生成allure报告
+    args = ['-s', '-q','--reruns', '0', '--html=' + './Report/' + "testReport.html" ,'--self-contained-html'] #pytest自带的html报告
 
     pytest.main(args)
     cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path)
@@ -45,10 +46,10 @@ if __name__ == '__main__':
         log.error('执行用例失败，请检查环境配置')
         raise
 
-    # try:
-    #     mail = Email.SendMail()
-    #     mail.sendMail()
-    # except Exception as e:
-    #     log.error('发送邮件失败，请检查邮件配置')
-    #     raise
+    try:
+        mail = Email.SendMail()
+        mail.sendMail()
+    except Exception as e:
+        log.error('发送邮件失败，请检查邮件配置')
+        raise
 

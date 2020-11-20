@@ -1,12 +1,12 @@
 {
-  "uid" : "aa0d8c48ed68a7a8",
+  "uid" : "baac9efdf2519090",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1605772616212,
-    "stop" : 1605772616359,
-    "duration" : 147
+    "start" : 1605771754760,
+    "stop" : 1605771754911,
+    "duration" : 151
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,30 +16,30 @@
   "beforeStages" : [ {
     "name" : "get_data",
     "time" : {
-      "start" : 1605772615928,
-      "stop" : 1605772616212,
-      "duration" : 284
+      "start" : 1605771754432,
+      "stop" : 1605771754756,
+      "duration" : 324
     },
     "status" : "passed",
     "steps" : [ {
-      "name" : "获取测试地址和路径",
+      "name" : "获取测试数据",
       "time" : {
-        "start" : 1605772616210,
-        "stop" : 1605772616212,
-        "duration" : 2
+        "start" : 1605771754755,
+        "stop" : 1605771754756,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "b1e29770217d2290",
+        "uid" : "241f6396a3a5638c",
         "name" : "请求地址",
-        "source" : "b1e29770217d2290.attach",
+        "source" : "241f6396a3a5638c.attach",
         "type" : "text/plain",
         "size" : 25
       }, {
-        "uid" : "d67e8056c810a334",
+        "uid" : "c85f1899d1f799a8",
         "name" : "请求路径",
-        "source" : "d67e8056c810a334.attach",
+        "source" : "c85f1899d1f799a8.attach",
         "type" : "text/plain",
         "size" : 12
       } ],
@@ -60,63 +60,45 @@
     "description" : "\n            用例描述：login接口\n        ",
     "status" : "passed",
     "steps" : [ {
-      "name" : "测试数据",
+      "name" : "校验返回响应码",
       "time" : {
-        "start" : 1605772616355,
-        "stop" : 1605772616358,
-        "duration" : 3
+        "start" : 1605771754760,
+        "stop" : 1605771754760,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a170405be35b621",
-        "name" : "请求数据",
-        "source" : "a170405be35b621.attach",
-        "type" : "text/plain",
-        "size" : 45
-      }, {
-        "uid" : "291a8ac669b69935",
-        "name" : "响应状态码",
-        "source" : "291a8ac669b69935.attach",
+        "uid" : "bf813266fb73d617",
+        "name" : "预期正则",
+        "source" : "bf813266fb73d617.attach",
         "type" : "text/plain",
         "size" : 3
-      }, {
-        "uid" : "299835ed89f1acb7",
-        "name" : "响应时间",
-        "source" : "299835ed89f1acb7.attach",
-        "type" : "text/plain",
-        "size" : 7
-      }, {
-        "uid" : "c98592594f16595b",
-        "name" : "响应内容",
-        "source" : "c98592594f16595b.attach",
-        "type" : "text/plain",
-        "size" : 340
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
-      "attachmentsCount" : 4,
+      "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "652ec9a04d308ca8",
+      "uid" : "b4c9f2dbf262ca31",
       "name" : "log",
-      "source" : "652ec9a04d308ca8.txt",
+      "source" : "b4c9f2dbf262ca31.txt",
       "type" : "text/plain",
       "size" : 788
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
-    "attachmentsCount" : 5,
+    "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "get_data::0",
     "time" : {
-      "start" : 1605772616359,
-      "stop" : 1605772616359,
+      "start" : 1605771754912,
+      "stop" : 1605771754912,
       "duration" : 0
     },
     "status" : "passed",
@@ -151,7 +133,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "32694-MainThread"
+    "value" : "32119-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -173,6 +155,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "aa0d8c48ed68a7a8.json",
+  "source" : "baac9efdf2519090.json",
   "parameterValues" : [ ]
 }

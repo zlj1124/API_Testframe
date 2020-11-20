@@ -1,5 +1,5 @@
 {
-  "uid" : "3affa54e48fb2bd9",
+  "uid" : "84e5f587c041ef32",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
@@ -33,15 +33,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "13d52cef25e21822",
+        "uid" : "fb4221dd9b77b277",
         "name" : "请求地址",
-        "source" : "13d52cef25e21822.attach",
+        "source" : "fb4221dd9b77b277.attach",
         "type" : "text/plain",
         "size" : 25
       }, {
-        "uid" : "ca98a53f857f5446",
+        "uid" : "b583e050ffa40901",
         "name" : "请求路径",
-        "source" : "ca98a53f857f5446.attach",
+        "source" : "b583e050ffa40901.attach",
         "type" : "text/plain",
         "size" : 12
       } ],
@@ -75,15 +75,15 @@
       "statusTrace" : "  File \"/Users/test/work/API_Testframe/TestCase/test_login.py\", line 60, in test_login_01\n    allure.attach(name='响应状态码', body=response['code'])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/_allure.py\", line 164, in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py\", line 286, in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 93, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 87, in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 208, in _multicall\n    return outcome.get_result()\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 80, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_pytest/listener.py\", line 215, in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/reporter.py\", line 117, in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/hooks.py\", line 286, in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 93, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/manager.py\", line 87, in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 208, in _multicall\n    return outcome.get_result()\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 80, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/allure_commons/logger.py\", line 57, in report_attached_data\n    attached_file.write(body)\n",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "91f968bceb6f526d",
+        "uid" : "ea1c5010ad21f357",
         "name" : "请求数据",
-        "source" : "91f968bceb6f526d.attach",
+        "source" : "ea1c5010ad21f357.attach",
         "type" : "text/plain",
         "size" : 45
       }, {
-        "uid" : "ac0ce77feaa7899d",
+        "uid" : "9285c62d8d4e962b",
         "name" : "响应状态码",
-        "source" : "ac0ce77feaa7899d.attach",
+        "source" : "9285c62d8d4e962b.attach",
         "type" : "application/octet-stream",
         "size" : 0
       } ],
@@ -94,9 +94,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "a4a4dc7f01f2b1f6",
+      "uid" : "e523c30b5952c613",
       "name" : "log",
-      "source" : "a4a4dc7f01f2b1f6.txt",
+      "source" : "e523c30b5952c613.txt",
       "type" : "text/plain",
       "size" : 788
     } ],
@@ -167,6 +167,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3affa54e48fb2bd9.json",
+  "source" : "84e5f587c041ef32.json",
   "parameterValues" : [ ]
 }

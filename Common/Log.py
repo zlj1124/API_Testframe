@@ -19,7 +19,8 @@ LEVELS = {
 }
 
 logger = logging.getLogger()
-level = 'default'
+# level = 'default'
+level = 'info'
 
 
 def create_file(filename):

@@ -1,5 +1,5 @@
 {
-  "uid" : "98a7b6a9c8bce876",
+  "uid" : "71b02e18843544bf",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
@@ -31,15 +31,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "441bd4d45fbefc00",
+        "uid" : "f5709ec57fca1636",
         "name" : "请求地址",
-        "source" : "441bd4d45fbefc00.attach",
+        "source" : "f5709ec57fca1636.attach",
         "type" : "text/plain",
         "size" : 25
       }, {
-        "uid" : "b697b73d5687c6cb",
+        "uid" : "375cfb81c24f5dac",
         "name" : "请求路径",
-        "source" : "b697b73d5687c6cb.attach",
+        "source" : "375cfb81c24f5dac.attach",
         "type" : "text/plain",
         "size" : 12
       } ],
@@ -69,9 +69,9 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "866f10c2764262e4",
+        "uid" : "f19d9142f6d3ab97",
         "name" : "预期正则",
-        "source" : "866f10c2764262e4.attach",
+        "source" : "f19d9142f6d3ab97.attach",
         "type" : "text/plain",
         "size" : 3
       } ],
@@ -82,9 +82,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "33978f07f10822ea",
+      "uid" : "a168925bb5f29c76",
       "name" : "log",
-      "source" : "33978f07f10822ea.txt",
+      "source" : "a168925bb5f29c76.txt",
       "type" : "text/plain",
       "size" : 788
     } ],
@@ -155,6 +155,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "98a7b6a9c8bce876.json",
+  "source" : "71b02e18843544bf.json",
   "parameterValues" : [ ]
 }

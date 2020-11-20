@@ -32,23 +32,23 @@ class SendMail:
         result_body = Consts.RESULT_LIST
         print("stress_body:{}".format(stress_body))
         print("result_body:{}".format(result_body))
-        test_dir = os.path.join(os.getcwd(), "report/html")
-        rep_dir= os.path.join(test_dir,'index.html')
+        test_dir = os.path.join(os.getcwd(), "Report/")
+        rep_dir= os.path.join(test_dir,'Report.html')
         with open(rep_dir, "rb") as f:
             mail_content = f.read()
            
         annex = MIMEMultipart()
         # 添加正文
         body = 'Hi，all\n本次接口自动化测试报告如下：\n   接口响应时间集：%s\n   接口运行结果集：%s' % (stress_body, result_body)
-        mail_body = MIMEText(body, _subtype='plain', _charset='utf-8')
-      
+        mail_body = MIMEText(mail_content , "html", 'utf-8')
+        
         # 添加附件
         msg_html = MIMEText(mail_content, "html", "utf-8")
         msg_html["Content-Type"] = "application/octet-stream"
-        msg_html["Content-Disposition"] = "attachment; filename=index.html"
-        annex.attach(mail_body )
+        msg_html["Content-Disposition"] = "attachment; filename=Report.html"
+        annex.attach(mail_body)
         annex.attach(msg_html)
-        annex["Subject"] = Header('测试报告', "utf-8")
+        annex["Subject"] = Header('接口测试报告', "utf-8")
         annex['From'] = self.config.sender
         receivers = self.config.receiver
         toclause = receivers.split(',')

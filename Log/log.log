@@ -242,3 +242,53 @@
 [INFO 2020-11-19 16:17:40]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
 [INFO 2020-11-19 16:17:41]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
 [DEBUG 2020-11-19 16:17:43]cookies: {}
+[INFO 2020-11-19 17:22:31]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[DEBUG 2020-11-19 17:22:34]cookies: {}
+[INFO 2020-11-19 17:24:25]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[DEBUG 2020-11-19 17:24:26]cookies: {}
+[INFO 2020-11-19 17:24:36]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-19 17:27:14]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[DEBUG 2020-11-19 17:27:16]cookies: {}
+[INFO 2020-11-20 11:03:46]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 11:03:51]邮件发送成功
+[INFO 2020-11-20 11:09:33]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 11:09:38]邮件发送成功
+[INFO 2020-11-20 11:10:34]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 11:10:34]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[DEBUG 2020-11-20 11:10:36]cookies: {}
+[INFO 2020-11-20 11:10:40]邮件发送成功
+[INFO 2020-11-20 11:22:14]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 11:22:15]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[DEBUG 2020-11-20 11:22:17]cookies: {}
+[INFO 2020-11-20 11:22:23]邮件发送成功
+[INFO 2020-11-20 11:25:04]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 11:25:05]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[DEBUG 2020-11-20 11:25:06]cookies: {}
+[INFO 2020-11-20 11:25:09]邮件发送成功
+[INFO 2020-11-20 13:27:20]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 13:27:21]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 13:27:30]邮件发送成功
+[INFO 2020-11-20 13:35:38]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 13:35:39]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 13:35:43]邮件发送成功
+[INFO 2020-11-20 13:38:04]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 13:38:05]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 13:38:10]邮件发送成功
+[INFO 2020-11-20 13:40:39]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 13:40:40]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 13:40:44]邮件发送成功
+[INFO 2020-11-20 13:48:37]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 13:48:37]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 13:48:41]邮件发送成功
+[INFO 2020-11-20 13:54:31]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 13:54:32]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 13:54:36]邮件发送成功
+[INFO 2020-11-20 14:02:04]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 14:02:04]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 14:02:09]邮件发送成功
+[INFO 2020-11-20 14:06:37]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 14:06:37]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 14:06:42]邮件发送成功
+[INFO 2020-11-20 14:15:56]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2020-11-20 14:15:57]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2020-11-20 14:16:01]邮件发送成功

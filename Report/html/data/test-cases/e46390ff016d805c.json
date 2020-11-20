@@ -1,5 +1,5 @@
 {
-  "uid" : "997300e42627772e",
+  "uid" : "e46390ff016d805c",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
@@ -62,6 +62,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "997300e42627772e.json",
+  "source" : "e46390ff016d805c.json",
   "parameterValues" : [ ]
 }

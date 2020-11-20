@@ -1,12 +1,12 @@
 {
-  "uid" : "285615ded34bfaf9",
+  "uid" : "ea68279772d28096",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1605772494716,
-    "stop" : 1605772494918,
-    "duration" : 202
+    "start" : 1605772068332,
+    "stop" : 1605772068486,
+    "duration" : 154
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -16,30 +16,30 @@
   "beforeStages" : [ {
     "name" : "get_data",
     "time" : {
-      "start" : 1605772494407,
-      "stop" : 1605772494715,
-      "duration" : 308
+      "start" : 1605772067920,
+      "stop" : 1605772068330,
+      "duration" : 410
     },
     "status" : "passed",
     "steps" : [ {
-      "name" : "获取测试地址和路径",
+      "name" : "获取测试数据",
       "time" : {
-        "start" : 1605772494713,
-        "stop" : 1605772494714,
+        "start" : 1605772068329,
+        "stop" : 1605772068330,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "b569707f29ab0836",
+        "uid" : "d39a56197f49825a",
         "name" : "请求地址",
-        "source" : "b569707f29ab0836.attach",
+        "source" : "d39a56197f49825a.attach",
         "type" : "text/plain",
         "size" : 25
       }, {
-        "uid" : "2148a151b378905b",
+        "uid" : "94e639af865284fa",
         "name" : "请求路径",
-        "source" : "2148a151b378905b.attach",
+        "source" : "94e639af865284fa.attach",
         "type" : "text/plain",
         "size" : 12
       } ],
@@ -62,16 +62,16 @@
     "steps" : [ {
       "name" : "测试数据",
       "time" : {
-        "start" : 1605772494918,
-        "stop" : 1605772494918,
+        "start" : 1605772068332,
+        "stop" : 1605772068332,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "e471f09599abbfa",
+        "uid" : "765e24cc5930eea9",
         "name" : "请求数据",
-        "source" : "e471f09599abbfa.attach",
+        "source" : "765e24cc5930eea9.attach",
         "type" : "text/plain",
         "size" : 45
       } ],
@@ -82,9 +82,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "a16addafe6044f64",
+      "uid" : "7e30a36d354a822b",
       "name" : "log",
-      "source" : "a16addafe6044f64.txt",
+      "source" : "7e30a36d354a822b.txt",
       "type" : "text/plain",
       "size" : 788
     } ],
@@ -97,8 +97,8 @@
   "afterStages" : [ {
     "name" : "get_data::0",
     "time" : {
-      "start" : 1605772494919,
-      "stop" : 1605772494919,
+      "start" : 1605772068488,
+      "stop" : 1605772068488,
       "duration" : 0
     },
     "status" : "passed",
@@ -111,14 +111,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
     "name" : "feature",
     "value" : "Login"
   }, {
     "name" : "story",
     "value" : "测试登录成功"
-  }, {
-    "name" : "severity",
-    "value" : "blocker"
   }, {
     "name" : "parentSuite",
     "value" : "TestCase"
@@ -133,7 +133,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "32546-MainThread"
+    "value" : "32300-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -155,6 +155,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "285615ded34bfaf9.json",
+  "source" : "ea68279772d28096.json",
   "parameterValues" : [ ]
 }

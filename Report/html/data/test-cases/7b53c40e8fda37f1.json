@@ -1,12 +1,12 @@
 {
-  "uid" : "9dd1498e0999873c",
+  "uid" : "7b53c40e8fda37f1",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1605771563246,
-    "stop" : 1605771563485,
-    "duration" : 239
+    "start" : 1605770173165,
+    "stop" : 1605770173334,
+    "duration" : 169
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -14,47 +14,35 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_data",
+    "name" : "getdata",
     "time" : {
-      "start" : 1605771562826,
-      "stop" : 1605771563244,
-      "duration" : 418
+      "start" : 1605770172778,
+      "stop" : 1605770173162,
+      "duration" : 384
     },
     "status" : "passed",
-    "steps" : [ {
-      "name" : "获取测试数据",
-      "time" : {
-        "start" : 1605771563242,
-        "stop" : 1605771563244,
-        "duration" : 2
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ {
-        "uid" : "88e0e3b8b7aea02c",
-        "name" : "请求地址",
-        "source" : "88e0e3b8b7aea02c.attach",
-        "type" : "text/plain",
-        "size" : 25
-      }, {
-        "uid" : "5077256ad97b1ee2",
-        "name" : "请求路径",
-        "source" : "5077256ad97b1ee2.attach",
-        "type" : "text/plain",
-        "size" : 12
-      } ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 2,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    } ],
+    "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "hasContent" : false
+  }, {
+    "name" : "action",
+    "time" : {
+      "start" : 1605770172778,
+      "stop" : 1605770172778,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "description" : "\n            用例描述：login接口\n        ",
@@ -62,16 +50,16 @@
     "steps" : [ {
       "name" : "校验返回响应码",
       "time" : {
-        "start" : 1605771563246,
-        "stop" : 1605771563246,
-        "duration" : 0
+        "start" : 1605770173166,
+        "stop" : 1605770173167,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "b5e21680feb1df60",
+        "uid" : "fc6ec42df94e36b9",
         "name" : "预期正则",
-        "source" : "b5e21680feb1df60.attach",
+        "source" : "fc6ec42df94e36b9.attach",
         "type" : "text/plain",
         "size" : 3
       } ],
@@ -82,9 +70,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "9f5555e5d3ea64c2",
+      "uid" : "6d153e94642c06e0",
       "name" : "log",
-      "source" : "9f5555e5d3ea64c2.txt",
+      "source" : "6d153e94642c06e0.txt",
       "type" : "text/plain",
       "size" : 788
     } ],
@@ -95,10 +83,10 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "get_data::0",
+    "name" : "getdata::0",
     "time" : {
-      "start" : 1605771563486,
-      "stop" : 1605771563486,
+      "start" : 1605770173335,
+      "stop" : 1605770173335,
       "duration" : 0
     },
     "status" : "passed",
@@ -111,14 +99,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "测试登录成功"
+    "name" : "feature",
+    "value" : "Login"
   }, {
     "name" : "severity",
     "value" : "blocker"
   }, {
-    "name" : "feature",
-    "value" : "Login"
+    "name" : "story",
+    "value" : "测试登录成功"
   }, {
     "name" : "parentSuite",
     "value" : "TestCase"
@@ -133,7 +121,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "32015-MainThread"
+    "value" : "31305-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -155,6 +143,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9dd1498e0999873c.json",
+  "source" : "7b53c40e8fda37f1.json",
   "parameterValues" : [ ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "a71c70f9f68283ef",
+  "uid" : "611444b00deedb5f",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
@@ -31,15 +31,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "b32a3416ed2e3992",
+        "uid" : "cf3bf33832f49458",
         "name" : "请求地址",
-        "source" : "b32a3416ed2e3992.attach",
+        "source" : "cf3bf33832f49458.attach",
         "type" : "text/plain",
         "size" : 25
       }, {
-        "uid" : "578b88eac6483506",
+        "uid" : "7187f2ce6f793561",
         "name" : "请求路径",
-        "source" : "578b88eac6483506.attach",
+        "source" : "7187f2ce6f793561.attach",
         "type" : "text/plain",
         "size" : 12
       } ],
@@ -69,27 +69,27 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "c6eb8469451526b5",
+        "uid" : "abbe759447f1129f",
         "name" : "测试数据",
-        "source" : "c6eb8469451526b5.attach",
+        "source" : "abbe759447f1129f.attach",
         "type" : "text/plain",
         "size" : 45
       }, {
-        "uid" : "649832a6c0076e1a",
+        "uid" : "f57d2894977260cd",
         "name" : "响应状态码",
-        "source" : "649832a6c0076e1a.attach",
+        "source" : "f57d2894977260cd.attach",
         "type" : "text/plain",
         "size" : 3
       }, {
-        "uid" : "770f1d628e63bec4",
+        "uid" : "6021df329e36d96",
         "name" : "响应时间",
-        "source" : "770f1d628e63bec4.attach",
+        "source" : "6021df329e36d96.attach",
         "type" : "text/plain",
         "size" : 5
       }, {
-        "uid" : "da614cb3d69de3ea",
+        "uid" : "c012525cc7fd92a4",
         "name" : "响应内容",
-        "source" : "da614cb3d69de3ea.attach",
+        "source" : "c012525cc7fd92a4.attach",
         "type" : "text/plain",
         "size" : 340
       } ],
@@ -108,15 +108,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "f9d47b748a4929cb",
+        "uid" : "95d9bd5b1f46a542",
         "name" : "预期响应码",
-        "source" : "f9d47b748a4929cb.attach",
+        "source" : "95d9bd5b1f46a542.attach",
         "type" : "text/plain",
         "size" : 3
       }, {
-        "uid" : "e8d0bcbab3fb3c80",
+        "uid" : "e924df7c43a67934",
         "name" : "实际响应码",
-        "source" : "e8d0bcbab3fb3c80.attach",
+        "source" : "e924df7c43a67934.attach",
         "type" : "text/plain",
         "size" : 3
       } ],
@@ -127,9 +127,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "b9c0cf79a53cd6a9",
+      "uid" : "26c2150305a861fb",
       "name" : "log",
-      "source" : "b9c0cf79a53cd6a9.txt",
+      "source" : "26c2150305a861fb.txt",
       "type" : "text/plain",
       "size" : 788
     } ],
@@ -199,7 +199,7 @@
   "extra" : {
     "severity" : "blocker",
     "retries" : [ {
-      "uid" : "aa0d8c48ed68a7a8",
+      "uid" : "c33eba768344e9de",
       "status" : "passed",
       "time" : {
         "start" : 1605772616212,
@@ -207,7 +207,7 @@
         "duration" : 147
       }
     }, {
-      "uid" : "a0c316415629f36e",
+      "uid" : "e9cb0481bffe41b6",
       "status" : "passed",
       "time" : {
         "start" : 1605772594079,
@@ -215,7 +215,7 @@
         "duration" : 167
       }
     }, {
-      "uid" : "285615ded34bfaf9",
+      "uid" : "32e576abd8b223ce",
       "status" : "passed",
       "time" : {
         "start" : 1605772494716,
@@ -223,7 +223,7 @@
         "duration" : 202
       }
     }, {
-      "uid" : "21235208b198e686",
+      "uid" : "cff3eabbefd9e622",
       "status" : "broken",
       "statusDetails" : "TypeError: a bytes-like object is required, not 'float'",
       "time" : {
@@ -232,7 +232,7 @@
         "duration" : 139
       }
     }, {
-      "uid" : "3affa54e48fb2bd9",
+      "uid" : "84e5f587c041ef32",
       "status" : "broken",
       "statusDetails" : "TypeError: a bytes-like object is required, not 'int'",
       "time" : {
@@ -241,7 +241,7 @@
         "duration" : 139
       }
     }, {
-      "uid" : "ef4e97eac3c8d277",
+      "uid" : "ea68279772d28096",
       "status" : "passed",
       "time" : {
         "start" : 1605772068332,
@@ -249,7 +249,7 @@
         "duration" : 154
       }
     }, {
-      "uid" : "19ef8dae25120ae5",
+      "uid" : "895cf3758bd54528",
       "status" : "broken",
       "statusDetails" : "TypeError: a bytes-like object is required, not 'dict'",
       "time" : {
@@ -258,7 +258,7 @@
         "duration" : 1
       }
     }, {
-      "uid" : "302de8ce6272bab9",
+      "uid" : "8f0c383d9d05f200",
       "status" : "broken",
       "statusDetails" : "TypeError: a bytes-like object is required, not 'dict'",
       "time" : {
@@ -267,7 +267,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "2c292795823d95c",
+      "uid" : "baac9efdf2519090",
       "status" : "passed",
       "time" : {
         "start" : 1605771754760,
@@ -275,7 +275,7 @@
         "duration" : 151
       }
     }, {
-      "uid" : "9dd1498e0999873c",
+      "uid" : "d43c42083fc5db17",
       "status" : "passed",
       "time" : {
         "start" : 1605771563246,
@@ -283,7 +283,7 @@
         "duration" : 239
       }
     }, {
-      "uid" : "98a7b6a9c8bce876",
+      "uid" : "71b02e18843544bf",
       "status" : "passed",
       "time" : {
         "start" : 1605771322158,
@@ -291,7 +291,7 @@
         "duration" : 165
       }
     }, {
-      "uid" : "6b25a629e1d64ca3",
+      "uid" : "e9d97e9f6998edd0",
       "status" : "broken",
       "statusDetails" : "TypeError: a bytes-like object is required, not 'dict'",
       "time" : {
@@ -300,7 +300,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "ecdb21162f272004",
+      "uid" : "a14785321c561a6c",
       "status" : "broken",
       "statusDetails" : "TypeError: a bytes-like object is required, not 'list'",
       "time" : {
@@ -309,7 +309,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "3fb20eac5af85661",
+      "uid" : "b8d1ce0b8fe6f7a4",
       "status" : "broken",
       "statusDetails" : "TypeError: a bytes-like object is required, not 'list'",
       "time" : {
@@ -318,7 +318,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "f472aee2518447ee",
+      "uid" : "bb1bf4abfd3f849f",
       "status" : "passed",
       "time" : {
         "start" : 1605770963450,
@@ -326,7 +326,7 @@
         "duration" : 133
       }
     }, {
-      "uid" : "997300e42627772e",
+      "uid" : "e46390ff016d805c",
       "status" : "broken",
       "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('getdata', <FixtureRequest for <Function test_login_01>>)",
       "time" : {
@@ -335,7 +335,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "d59f52355ef1252",
+      "uid" : "8deb5f912f641dc2",
       "status" : "passed",
       "time" : {
         "start" : 1605770785546,
@@ -343,7 +343,7 @@
         "duration" : 141
       }
     }, {
-      "uid" : "8105f8259ca4b606",
+      "uid" : "7b53c40e8fda37f1",
       "status" : "passed",
       "time" : {
         "start" : 1605770173165,
@@ -351,7 +351,7 @@
         "duration" : 169
       }
     }, {
-      "uid" : "4ae2d6d9ea14d156",
+      "uid" : "399c1a05eb3be811",
       "status" : "passed",
       "time" : {
         "start" : 1605769604796,
@@ -362,6 +362,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a71c70f9f68283ef.json",
+  "source" : "611444b00deedb5f.json",
   "parameterValues" : [ ]
 }

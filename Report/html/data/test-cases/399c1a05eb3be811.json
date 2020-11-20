@@ -1,12 +1,12 @@
 {
-  "uid" : "8105f8259ca4b606",
+  "uid" : "399c1a05eb3be811",
   "name" : "test_login_01",
   "fullName" : "TestCase.test_login.TestLogin#test_login_01",
   "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
   "time" : {
-    "start" : 1605770173165,
-    "stop" : 1605770173334,
-    "duration" : 169
+    "start" : 1605769604796,
+    "stop" : 1605769604942,
+    "duration" : 146
   },
   "description" : "\n            用例描述：login接口\n        ",
   "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "getdata",
+    "name" : "action",
     "time" : {
-      "start" : 1605770172778,
-      "stop" : 1605770173162,
-      "duration" : 384
+      "start" : 1605769604500,
+      "stop" : 1605769604501,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "action",
+    "name" : "getdata",
     "time" : {
-      "start" : 1605770172778,
-      "stop" : 1605770172778,
-      "duration" : 0
+      "start" : 1605769604501,
+      "stop" : 1605769604793,
+      "duration" : 292
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,44 +50,38 @@
     "steps" : [ {
       "name" : "校验返回响应码",
       "time" : {
-        "start" : 1605770173166,
-        "stop" : 1605770173167,
-        "duration" : 1
+        "start" : 1605769604796,
+        "stop" : 1605769604942,
+        "duration" : 146
       },
       "status" : "passed",
       "steps" : [ ],
-      "attachments" : [ {
-        "uid" : "40cc86b74b675ad6",
-        "name" : "预期正则",
-        "source" : "40cc86b74b675ad6.attach",
-        "type" : "text/plain",
-        "size" : 3
-      } ],
+      "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 0,
-      "attachmentsCount" : 1,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "6f789df1fb72a10a",
+      "uid" : "25f1eebb5fa78719",
       "name" : "log",
-      "source" : "6f789df1fb72a10a.txt",
+      "source" : "25f1eebb5fa78719.txt",
       "type" : "text/plain",
       "size" : 788
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "getdata::0",
     "time" : {
-      "start" : 1605770173335,
-      "stop" : 1605770173335,
-      "duration" : 0
+      "start" : 1605769604943,
+      "stop" : 1605769604944,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -99,14 +93,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Login"
-  }, {
     "name" : "severity",
     "value" : "blocker"
   }, {
     "name" : "story",
     "value" : "测试登录成功"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
   }, {
     "name" : "parentSuite",
     "value" : "TestCase"
@@ -121,7 +115,7 @@
     "value" : "Lettos-iMac.local"
   }, {
     "name" : "thread",
-    "value" : "31305-MainThread"
+    "value" : "31101-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -143,6 +137,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8105f8259ca4b606.json",
+  "source" : "399c1a05eb3be811.json",
   "parameterValues" : [ ]
 }
