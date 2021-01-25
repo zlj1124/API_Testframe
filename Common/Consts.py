@@ -1,3 +1,8 @@
+'''
+Descripttion: 
+Author: zlj
+Date: 2020-11-17 09:37:52
+'''
 # -*- coding: utf-8 -*-
 
 
@@ -9,7 +14,6 @@
 # 接口全局配置
 API_ENVIRONMENT_qiye6= 'qiye6'
 # API_ENVIRONMENT_hz = 'hz'
-
 
 # 接口响应时间list，单位毫秒
 STRESS_LIST = []

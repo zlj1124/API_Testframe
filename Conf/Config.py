@@ -5,7 +5,7 @@ from configparser import ConfigParser
 from Common import Log
 import os
 
-
+#用于解析config.ini配置文件
 class Config:
     # titles:
     TITLE_PLAT= "qiye6_dev"

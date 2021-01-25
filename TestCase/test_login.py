@@ -1,3 +1,8 @@
+'''
+Descripttion: 
+Author: zlj
+Date: 2020-11-23 09:38:40
+'''
 # -*- coding: utf-8 -*-
 
 
@@ -39,7 +44,7 @@ class TestLogin:
         yield
 
         print('over')
-  
+    
     @allure.feature('登录')
     @allure.severity('blocker')
     @allure.story('测试登录成功')
@@ -51,7 +56,7 @@ class TestLogin:
        
         api_url = self.host + self.urls[1]     
         params = json.dumps(self.data.data[1]['postdata'])
-        response = self.request.post_request(api_url,  params)
+        response = self.request.post_request(api_url,params)
         
         with allure.step("登录post请求接口"):
             allure.attach(name='测试数据', body=params)

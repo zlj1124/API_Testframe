@@ -1,3 +1,8 @@
+'''
+Descripttion: 
+Author: zlj
+Date: 2020-11-23 09:38:40
+'''
 # -*- encoding: utf-8 -*-
 '''
 @File    :   run.py
@@ -34,17 +39,17 @@ if __name__ == '__main__':
     html_report_path = conf.html_report_path
 
     # 定义测试集
-    # args = ['-s', '-q', '--alluredir', xml_report_path] #生成allure报告
-    args = ['-s', '-q','--reruns', '0', '--html=' + './Report/' + "testReport.html" ,'--self-contained-html'] #pytest自带的html报告
-
+    args = ['-s', '-q','--reruns', '0', '--html=' + './Report/' + "testReport.html" ,'--self-contained-html'] #1.使用pytest自带的html报告
     pytest.main(args)
-    cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path)
-    # print(cmd)
-    try:
-        shell.invoke(cmd)
-    except Exception:
-        log.error('执行用例失败，请检查环境配置')
-        raise
+
+    # args = ['-s', '-q', '--alluredir', xml_report_path] #2.使用allure生成测试结果
+    # cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path) #allure生成测试报告
+    # print(cmd)#allure generate /Users/test/work/API_Testframe/Report/xml -o /Users/test/work/API_Testframe/Report/html --clean
+    # try:
+    #     shell.invoke(cmd)
+    # except Exception:
+    #     log.error('执行用例失败，请检查环境配置')
+    #     raise
 
     try:
         mail = Email.SendMail()

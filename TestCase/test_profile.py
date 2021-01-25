@@ -1,0 +1,49 @@
+'''
+Descripttion: 
+Author: zlj
+Date: 2020-11-17 09:37:55
+'''
+# -*- coding: utf-8 -*-
+
+import allure
+import pytest
+import json
+from Params.params import Datas
+from Conf.Config import Config
+from Common import Send_Request
+from Common import Consts
+from Common import Assert
+
+
+class TestProfile:
+    @pytest.fixture()
+    def getdata(self):
+        print('before')
+        conf = Config()
+        self.data = Datas()
+        self.request = Send_Request.Request()
+        self.test = Assert.Assertions()
+
+        self.host = conf.host_qiye6 
+        self.urls = self.data.url
+
+        yield
+
+        print('over')
+
+ 
+    @allure.feature('Profile')
+    @allure.severity('normal')
+    @allure.story('add profile')
+    def test_basic_02(self, action,getdata):
+        """
+            用例描述：profile接口
+        """
+    
+        request = Send_Request.Request()
+        params = json.dumps(self.data.data[0]['postdata'])
+        api_url = self.host + self.urls[0]
+        response = request.post_request(api_url,params)    
+        print(response['body'])   
+        assert self.test.assert_code(response['code'], 201)
+        Consts.RESULT_LIST.append('True')

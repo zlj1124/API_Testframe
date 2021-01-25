@@ -1,0 +1,178 @@
+{
+  "uid" : "d9bdfb71fe3ac062",
+  "name" : "test_login_01",
+  "fullName" : "TestCase.test_login.TestLogin#test_login_01",
+  "historyId" : "ad46b58c6f38a9e8de6b92b522c7cbff",
+  "time" : {
+    "start" : 1605772616212,
+    "stop" : 1605772616359,
+    "duration" : 147
+  },
+  "description" : "\n            用例描述：login接口\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：login接口\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_data",
+    "time" : {
+      "start" : 1605772615928,
+      "stop" : 1605772616212,
+      "duration" : 284
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取测试地址和路径",
+      "time" : {
+        "start" : 1605772616210,
+        "stop" : 1605772616212,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24cb5d8cfe1959",
+        "name" : "请求地址",
+        "source" : "24cb5d8cfe1959.attach",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "7f5e7cb44ac1b22f",
+        "name" : "请求路径",
+        "source" : "7f5e7cb44ac1b22f.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述：login接口\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试数据",
+      "time" : {
+        "start" : 1605772616355,
+        "stop" : 1605772616358,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a42da7da39de28ef",
+        "name" : "请求数据",
+        "source" : "a42da7da39de28ef.attach",
+        "type" : "text/plain",
+        "size" : 45
+      }, {
+        "uid" : "5e27f13e781fe9bb",
+        "name" : "响应状态码",
+        "source" : "5e27f13e781fe9bb.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "e1c6998cf170e7ff",
+        "name" : "响应时间",
+        "source" : "e1c6998cf170e7ff.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "f8d3c156e59d6989",
+        "name" : "响应内容",
+        "source" : "f8d3c156e59d6989.attach",
+        "type" : "text/plain",
+        "size" : 340
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bdcfe3a970efe06f",
+      "name" : "log",
+      "source" : "bdcfe3a970efe06f.txt",
+      "type" : "text/plain",
+      "size" : 788
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_data::0",
+    "time" : {
+      "start" : 1605772616359,
+      "stop" : 1605772616359,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "测试登录成功"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Lettos-iMac.local"
+  }, {
+    "name" : "thread",
+    "value" : "32694-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9bdfb71fe3ac062.json",
+  "parameterValues" : [ ]
+}
