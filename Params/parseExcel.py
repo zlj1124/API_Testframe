@@ -1,11 +1,17 @@
+'''
+Descripttion: 
+Author: zlj
+Date: 2020-05-06 11:20:32
+'''
 from openpyxl import load_workbook
 import os
-
+#Todo 不同模块取不同的xlsx文件，传入xlsx文件名和对应的sheet,返回对应数据源
 class ParseExcel(object):
 
-    def __init__(self):
+    def __init__(self,filename):
 # 
-        data_dir = os.path.join(os.getcwd(), "Params/tcData.xlsx")
+      
+        data_dir = os.path.join(os.getcwd(), "Params/{}".format(filename))
        
 
         self.wk = load_workbook(data_dir)
@@ -62,6 +68,7 @@ class ParseExcel(object):
             row_values = []
             for column in range(1, column_num + 1):
                 value = sheet.cell(row, column).value
+                # value = value.encode('utf-8').decode('utf-8')
                 if value is None:
                     value = ''
                 row_values.append(value)
@@ -70,12 +77,15 @@ class ParseExcel(object):
 
 
 if __name__ == '__main__':
-    exe=ParseExcel()
+    exe=ParseExcel(filename='tcData.xlsx')
     sheet=exe.get_sheet_by_name('login')
     print(exe.get_row_values( sheet,1))
     print(exe.get_all_values_of_sheet(sheet)[0])
-    data=zip(exe.get_row_values( sheet,1),exe.get_all_values_of_sheet(sheet)[0])
+
+    data=zip(exe.get_row_values( sheet,1),exe.get_all_values_of_sheet(sheet)[1])
     print(dict(data))
+    print(exe.get_all_values_of_sheet(sheet))
+   
     
 
 

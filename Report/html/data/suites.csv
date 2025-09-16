@@ -1,4 +1,7 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Nov 20 15:43:03 CST 2020","Fri Nov 20 15:43:03 CST 2020","442","TestCase","test_login","TestLogin","","","test_login_01","
-            用例描述：login成功接口
+"passed","Tue Sep 16 17:05:29 CST 2025","Tue Sep 16 17:05:29 CST 2025","403","TestCase","test_operator","TestOperator","","","测试用例：按运营商ID搜索","
+            用例描述：运营商列表接口:按运营商名称/ID搜索
+        "
+"passed","Tue Sep 16 17:05:29 CST 2025","Tue Sep 16 17:05:29 CST 2025","494","TestCase","test_operator","TestOperator","","","测试用例：按运营商名称搜索","
+            用例描述：运营商列表接口:按运营商名称/ID搜索
         "

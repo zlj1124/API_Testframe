@@ -361,3 +361,12 @@
 [INFO 2021-01-25 13:40:35]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
 [ERROR 2021-01-25 13:40:36]statusCode error, expected_code is 201, statusCode is 400 
 [INFO 2021-01-25 13:40:43]邮件发送成功
+[INFO 2025-09-05 17:04:44]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[ERROR 2025-09-05 17:04:44]邮件发送失败，请检查邮件配置
+[ERROR 2025-09-05 17:04:44]发送邮件失败，请检查邮件配置
+[INFO 2025-09-05 17:06:00]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2025-09-05 17:06:17]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2025-09-05 17:06:39]初始化配置文件, path=/Users/test/work/API_Testframe/Conf/config.ini
+[INFO 2025-09-09 15:34:05]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[INFO 2025-09-09 15:36:38]解析yaml, Path:/Users/test/work/API_Testframe/Params/Yaml/Datas.yaml
+[ERROR 2025-09-16 16:33:52]Response body != expected_msg, expected_msg is 运营商, body is 江淮用户添加运营商111

@@ -18,14 +18,21 @@ from email.mime.text import MIMEText
 import os
 from Common import Consts
 from Common import Log
-from Conf.Config import Config
-
+# from Conf.Config import Config
+from Conf.Config import ReadConfig
+localconfig = ReadConfig()
 
 class SendMail:
 
     def __init__(self):
-        self.config = Config()
+        mail_msg= localconfig.get_option_value('mail')
+      
         self.log = Log.MyLog()
+        self.config.smtpserver=mail_msg['smtp_server']
+        self.config.sender=mail_msg['send_mail']
+        self.config.receiver=mail_msg["rec_mail"].split(",")
+        self.config.password=mail_msg['password']
+        self.config.username=mail_msg['username']
 
     def sendMail(self):
         stress_body = Consts.STRESS_LIST

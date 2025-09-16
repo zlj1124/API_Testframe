@@ -1,0 +1,23 @@
+#主机host地址
+host: http://192.168.3.75:8080
+#/auth/token/profile/get/
+captcha_path: /auth/captcha
+login_path: /auth/login
+customer_path: /sys/sysCustomerManagement/queryCustomerManagementPageInfo
+Operator_path: /sys/sysOperatorManagement/queryPageInfo
+data_sucess:
+  username: 15375222343
+  password: xnyfwb121
+  
+data_error:
+  username: 10089
+  password: 10089
+  
+data_passnull:
+  username: 10086
+  password:
+   
+data_usernull:
+  username:
+  password: 10086
+  

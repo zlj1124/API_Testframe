@@ -8,5 +8,7 @@ PyYAML==5.2
 requests==2.18.4
 xlrd==1.2.0
 XlsxWriter==1.0.5
-
+pytest-rerunfailures==16.0.1
+pytest-html==4.1.1
+requests_toolbelt==1.0.0
 

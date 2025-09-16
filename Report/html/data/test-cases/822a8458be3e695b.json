@@ -1,0 +1,128 @@
+{
+  "uid" : "822a8458be3e695b",
+  "name" : "测试用例：按运营商ID搜索",
+  "fullName" : "TestCase.test_operator.TestOperator#test_basic_01",
+  "historyId" : "c29841b518119f8d82ba20767b19bdb3",
+  "time" : {
+    "start" : 1758012936643,
+    "stop" : 1758012937038,
+    "duration" : 395
+  },
+  "description" : "\n            用例描述：运营商列表接口:按运营商名称/ID搜索\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：运营商列表接口:按运营商名称/ID搜索\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1758012936636,
+      "stop" : 1758012936642,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取测试地址和路径",
+      "time" : {
+        "start" : 1758012936642,
+        "stop" : 1758012936642,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b534f077f9b18963",
+        "name" : "请求地址",
+        "source" : "b534f077f9b18963.attach",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "a9cc69bdbce459f8",
+        "name" : "请求路径",
+        "source" : "a9cc69bdbce459f8.attach",
+        "type" : "text/plain",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1758012937039,
+      "stop" : 1758012937039,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_operator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOperator"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "9044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_operator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'YYS1967857075444572160'"
+  }, {
+    "name" : "keyword",
+    "value" : "'YYS1967857075444572160'"
+  }, {
+    "name" : "limit",
+    "value" : "20"
+  }, {
+    "name" : "name",
+    "value" : "'按运营商ID搜索'"
+  }, {
+    "name" : "page",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "822a8458be3e695b.json",
+  "parameterValues" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+}

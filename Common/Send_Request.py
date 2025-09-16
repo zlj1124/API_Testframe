@@ -10,10 +10,13 @@ import os
 import random
 import requests
 import Common.Consts
-from Params.params import Datas
-from Conf.Config import Config
+# from Params.params import Datas
+# from Conf.Config import Config
 from requests_toolbelt import MultipartEncoder
 import json
+from Conf.Config import ReadConfig
+localconfig = ReadConfig()
+
 
 class Request:
 
@@ -21,14 +24,18 @@ class Request:
         """
         :param env:
         """
-        conf = Config()
-        data = Datas()
-        host = conf.host_qiye6
-        url = conf.tokenHost_qiye6
-        data = eval(conf.loginInfo_qiye6)
-        self.headers = eval(conf.headers)
-        response = requests.post(url=url, data=data)
-        auth = "JWT " + response.json()["token"]
+        # conf = Config()
+        # data = Datas()
+        # host = conf.host_qiye6
+        # url = conf.tokenHost_qiye6
+        # data = eval(conf.loginInfo_qiye6)
+        # self.headers = eval(conf.headers)
+        # response = requests.post(url=url, data=data)
+        # auth = "JWT " + response.json()["token"]
+        msg= localconfig.get_option_value('jac')
+      
+        self.headers= eval(msg['headers'])
+        auth='Bearer f2ad1d26-9fbe-44e1-b54d-6bc35691d885'
         self.headers["Authorization"] = auth
  
 
@@ -96,7 +103,8 @@ class Request:
                 response = requests.post(url=url, headers=self.headers)
             else:
                
-                response = requests.post(url=url, data = data, headers=self.headers)         
+                response = requests.post(url=url, data = data, headers=self.headers)  
+                 
         except requests.RequestException as e:
             print('%s%s' % ('RequestException url: ', url))
             print(e)

@@ -1,11 +1,21 @@
 [ {
-  "uid" : "f4651cf4b841c79",
-  "name" : "test_login_01",
+  "uid" : "95b3c977cba8f8df",
+  "name" : "测试用例：按运营商ID搜索",
   "time" : {
-    "start" : 1605858183074,
-    "stop" : 1605858183516,
-    "duration" : 442
+    "start" : 1758013529531,
+    "stop" : 1758013529934,
+    "duration" : 403
   },
   "status" : "passed",
-  "severity" : "blocker"
+  "severity" : "normal"
+}, {
+  "uid" : "fb34ec00530ad911",
+  "name" : "测试用例：按运营商名称搜索",
+  "time" : {
+    "start" : 1758013529028,
+    "stop" : 1758013529522,
+    "duration" : 494
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

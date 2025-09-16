@@ -1,3 +1,8 @@
+'''
+Descripttion: 
+Author: zlj
+Date: 2020-11-23 09:38:40
+'''
 # -*- coding: utf-8 -*-
 
 
@@ -18,18 +23,17 @@
 import allure
 import pytest
 
-from Conf.Config import Config
 from Common import Consts
 
 
 @pytest.fixture()
 def action():
     # 定义环境 
-    env = Consts.API_ENVIRONMENT_qiye6
+    env = Consts.API_ENVIRONMEN
     # 定义报告中environment
-    conf = Config()
-    host = conf.host_qiye6
-    tester = conf.tester
+    # conf = Config()
+    # host = conf.host
+    # tester = conf.tester
     # allure.environment(environment=env)
     # allure.environment(hostname=host)
     # allure.environment(tester=tester)

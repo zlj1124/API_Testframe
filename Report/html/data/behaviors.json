@@ -2,25 +2,30 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "登录",
-    "children" : [ {
-      "name" : "正常用例-登录成功",
-      "children" : [ {
-        "name" : "test_login_01",
-        "uid" : "f4651cf4b841c79",
-        "parentUid" : "007c0364bf05cba5466e014e39df999a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1605858183074,
-          "stop" : 1605858183516,
-          "duration" : 442
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "007c0364bf05cba5466e014e39df999a"
-    } ],
-    "uid" : "6e12e06fb17fec92464fd1fd24bca881"
+    "name" : "测试用例：按运营商名称搜索",
+    "uid" : "fb34ec00530ad911",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1758013529028,
+      "stop" : 1758013529522,
+      "duration" : 494
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+  }, {
+    "name" : "测试用例：按运营商ID搜索",
+    "uid" : "95b3c977cba8f8df",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1758013529531,
+      "stop" : 1758013529934,
+      "duration" : 403
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
   } ]
 }

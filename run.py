@@ -26,35 +26,41 @@ import pytest
 
 from Common import Log
 from Common import Shell
-from Conf import Config
+# from Conf import Config
 from Common import Email
-
+from Common.Consts import ROOT_DIR
 if __name__ == '__main__':
-    conf = Config.Config()
+    # conf = Config.Config()
     log = Log.MyLog()
-    log.info('初始化配置文件, path=' + conf.conf_path)
+    
 
     shell = Shell.Shell()
-    xml_report_path = conf.xml_report_path
-    html_report_path = conf.html_report_path
+    print(ROOT_DIR)
+    xml_report_path = ROOT_DIR+'/Report/xml'
+    html_report_path = ROOT_DIR+'/Report/html'
+    print(xml_report_path,html_report_path)
 
     # 定义测试集
-    args = ['-s', '-q','--reruns', '0', '--html=' + './Report/' + "testReport.html" ,'--self-contained-html'] #1.使用pytest自带的html报告
-    pytest.main(args)
+    # args = ['-s', '-q','--reruns', '0', '--html=' + './Report/' + "testReport.html" ,'--self-contained-html'] #1.使用pytest自带的html报告
+    # pytest.main(args)
 
-    # args = ['-s', '-q', '--alluredir', xml_report_path] #2.使用allure生成测试结果
-    # cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path) #allure生成测试报告
-    # print(cmd)#allure generate /Users/test/work/API_Testframe/Report/xml -o /Users/test/work/API_Testframe/Report/html --clean
-    # try:
-    #     shell.invoke(cmd)
-    # except Exception:
-    #     log.error('执行用例失败，请检查环境配置')
-    #     raise
-
+  
+    cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path) #allure生成测试报告
+    
+    print(cmd)#allure generate /Users/test/work/API_Testframe/Report/xml -o /Users/test/work/API_Testframe/Report/html --clean
+    #查看报告执行allure serve /Users/test/work/API_Testframe/Report/xml
     try:
-        mail = Email.SendMail()
-        mail.sendMail()
-    except Exception as e:
-        log.error('发送邮件失败，请检查邮件配置')
+        shell.invoke(cmd)
+        print(f"Allure 测试报告路径为：{html_report_path}")
+    except Exception:
+        log.error('执行用例失败，请检查环境配置')
         raise
+    args = ['-s', '-q', '--alluredir', xml_report_path] #2.使用allure生成测试结果
+    pytest.main(args)    
+    # try:
+    #     mail = Email.SendMail()
+    #     mail.sendMail()
+    # except Exception as e:
+    #     log.error('发送邮件失败，请检查邮件配置')
+    #     raise
 
