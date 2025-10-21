@@ -1,0 +1,199 @@
+{
+  "uid" : "4375ed34acecc5c9",
+  "name" : "测试用例: Can数据导出",
+  "fullName" : "TestCase.test_can_data.Test_Candata#test_01",
+  "historyId" : "91764c3bc98756242b85ed8f1e944c1e",
+  "time" : {
+    "start" : 1761015615640,
+    "stop" : 1761015618480,
+    "duration" : 2840
+  },
+  "description" : "\n            用例描述:Can数据导出，任务列表导出状态为成功\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:Can数据导出，任务列表导出状态为成功\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761015615617,
+      "stop" : 1761015615640,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761015615639,
+        "stop" : 1761015615640,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9dc9c7d35be7cc8",
+        "name" : "请求地址",
+        "source" : "c9dc9c7d35be7cc8.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "e2dfe79008d3addd",
+        "name" : "请求路径",
+        "source" : "e2dfe79008d3addd.attach",
+        "type" : "text/plain",
+        "size" : 14
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761015586140,
+      "stop" : 1761015586140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761015586140,
+      "stop" : 1761015586140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:Can数据导出，任务列表导出状态为成功\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Can数据导出列表接口",
+      "time" : {
+        "start" : 1761015618475,
+        "stop" : 1761015618480,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca1eba531709fa0a",
+        "name" : "测试数据",
+        "source" : "ca1eba531709fa0a.attach",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "dea840699dc86d77",
+        "name" : "响应状态码",
+        "source" : "dea840699dc86d77.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "3fadd4ae10a2726a",
+        "name" : "响应时间ms",
+        "source" : "3fadd4ae10a2726a.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "361db953d8ac9b34",
+        "name" : "响应内容",
+        "source" : "361db953d8ac9b34.attach",
+        "type" : "text/plain",
+        "size" : 92393
+      }, {
+        "uid" : "c11f636ff290fad6",
+        "name" : "断言描述",
+        "source" : "c11f636ff290fad6.attach",
+        "type" : "text/plain",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761015618481,
+      "stop" : 1761015618481,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_can_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Candata"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "26441-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_can_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4375ed34acecc5c9.json",
+  "parameterValues" : [ ]
+}

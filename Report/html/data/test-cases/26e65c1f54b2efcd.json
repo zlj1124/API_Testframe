@@ -1,0 +1,236 @@
+{
+  "uid" : "26e65c1f54b2efcd",
+  "name" : "测试用例: 三级报警列表_按报警原因查询",
+  "fullName" : "TestCase.test_alarm_level3.Test_searchlist#test_04",
+  "historyId" : "f3bbd4fbbd71e8f0d0659e5d1d9fc2b2",
+  "time" : {
+    "start" : 1761015695980,
+    "stop" : 1761015697649,
+    "duration" : 1669
+  },
+  "description" : "\n            用例描述:三级报警列表按报警原因搜索\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:三级报警列表按报警原因搜索\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761015695926,
+      "stop" : 1761015695980,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761015695979,
+        "stop" : 1761015695980,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c604658bd9a8c119",
+        "name" : "请求地址",
+        "source" : "c604658bd9a8c119.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "13006e9ce836b8b6",
+        "name" : "请求路径",
+        "source" : "13006e9ce836b8b6.attach",
+        "type" : "text/plain",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761015689495,
+      "stop" : 1761015689495,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761015689495,
+      "stop" : 1761015689496,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:三级报警列表按报警原因搜索\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "三级报警列表接口_按报警原因查询",
+      "time" : {
+        "start" : 1761015697646,
+        "stop" : 1761015697649,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f38852bd344538a2",
+        "name" : "测试数据",
+        "source" : "f38852bd344538a2.attach",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "49346767b598826",
+        "name" : "响应状态码",
+        "source" : "49346767b598826.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "f9594350a3138de8",
+        "name" : "响应时间ms",
+        "source" : "f9594350a3138de8.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "7002ecc0fa1fca6a",
+        "name" : "响应内容",
+        "source" : "7002ecc0fa1fca6a.attach",
+        "type" : "text/plain",
+        "size" : 24417
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761015697650,
+      "stop" : 1761015697650,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_alarm_level3"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchlist"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "26973-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_alarm_level3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "302e8d1d3873f23e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761015612552,
+        "stop" : 1761015613768,
+        "duration" : 1216
+      }
+    }, {
+      "uid" : "1a7dbac4b8b44f92",
+      "status" : "broken",
+      "statusDetails" : "yaml.parser.ParserError: while parsing a block mapping\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 90, column 3\nexpected <block end>, but found '<block mapping start>'\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 92, column 4",
+      "time" : {
+        "start" : 1761015552241,
+        "stop" : 1761015552241,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e8d7881ff3b48e22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761013212569,
+        "stop" : 1761013215071,
+        "duration" : 2502
+      }
+    }, {
+      "uid" : "8563f2afcf56270d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761012287673,
+        "stop" : 1761012289100,
+        "duration" : 1427
+      }
+    }, {
+      "uid" : "6c1407455ccfd251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761012261358,
+        "stop" : 1761012262609,
+        "duration" : 1251
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26e65c1f54b2efcd.json",
+  "parameterValues" : [ ]
+}

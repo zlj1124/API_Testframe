@@ -1,7 +1,31 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Sep 16 17:05:29 CST 2025","Tue Sep 16 17:05:29 CST 2025","403","TestCase","test_operator","TestOperator","","","测试用例：按运营商ID搜索","
-            用例描述：运营商列表接口:按运营商名称/ID搜索
+"passed","Tue Oct 21 11:01:39 CST 2025","Tue Oct 21 11:01:39 CST 2025","171","TestCase","test_range_report","Test_Rangereport","","","测试用例: 单车续航报告生成","
+            用例描述:单车续航报告生成，任务列表导出状态为已完成
         "
-"passed","Tue Sep 16 17:05:29 CST 2025","Tue Sep 16 17:05:29 CST 2025","494","TestCase","test_operator","TestOperator","","","测试用例：按运营商名称搜索","
-            用例描述：运营商列表接口:按运营商名称/ID搜索
+"passed","Tue Oct 21 11:01:38 CST 2025","Tue Oct 21 11:01:39 CST 2025","541","TestCase","test_can_data","Test_Candata","","","测试用例: Can数据导出","
+            用例描述:Can数据导出，任务列表导出状态为成功
+        "
+"passed","Tue Oct 21 11:01:32 CST 2025","Tue Oct 21 11:01:34 CST 2025","1872","TestCase","test_alarm_level3","Test_searchlist","","","测试用例: 三级报警列表_按vin查询","
+            用例描述:三级报警列表按VIN搜,参数为配置参数
+        "
+"passed","Tue Oct 21 11:01:35 CST 2025","Tue Oct 21 11:01:37 CST 2025","1669","TestCase","test_alarm_level3","Test_searchlist","","","测试用例: 三级报警列表_按报警原因查询","
+            用例描述:三级报警列表按报警原因搜索
+        "
+"passed","Tue Oct 21 11:01:37 CST 2025","Tue Oct 21 11:01:38 CST 2025","792","TestCase","test_alarm_level3","Test_searchlist","","","测试用例: 三级报警列表_按结构号查询","
+            用例描述:三级报警列表按结构号搜索
+        "
+"passed","Tue Oct 21 11:01:34 CST 2025","Tue Oct 21 11:01:35 CST 2025","1530","TestCase","test_alarm_level3","Test_searchlist","","","测试用例: 三级报警列表_按最高报警等级查询","
+            用例描述:三级报警列表按最高报警等级搜索
+        "
+"passed","Tue Oct 21 11:01:39 CST 2025","Tue Oct 21 11:01:39 CST 2025","136","TestCase","test_map_monitor","Test_searchlist","","","测试用例: 地图监控车辆列表_按VIN搜索车辆","
+            用例描述:地图监控列表按VIN搜索,参数为上一个接口返回值
+        "
+"passed","Tue Oct 21 11:01:39 CST 2025","Tue Oct 21 11:01:39 CST 2025","260","TestCase","test_map_monitor","Test_searchlist","","","测试用例: 地图监控车辆列表_搜索在线车辆","
+            用例描述:地图监控搜索在线车辆
+        "
+"passed","Tue Oct 21 11:01:30 CST 2025","Tue Oct 21 11:01:32 CST 2025","1777","TestCase","test_alarm_level3","Test_searchlist","","","测试用例: 三级报警列表_按vin查询","
+            用例描述:三级报警列表按VIN搜索,参数为上一个接口返回值
+        "
+"passed","Tue Oct 21 11:01:29 CST 2025","Tue Oct 21 11:01:30 CST 2025","1009","TestCase","test_alarm_level3","Test_searchlist","","","测试用例: 三级报警列表_当日有数据产生","
+            用例描述:三级报警列表按时间段搜索，时间段为今天
         "

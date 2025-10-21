@@ -1,20 +1,100 @@
 [ {
-  "uid" : "95b3c977cba8f8df",
-  "name" : "测试用例：按运营商ID搜索",
+  "uid" : "12c0e1a532763735",
+  "name" : "测试用例: 单车续航报告生成",
   "time" : {
-    "start" : 1758013529531,
-    "stop" : 1758013529934,
-    "duration" : 403
+    "start" : 1761015699590,
+    "stop" : 1761015699761,
+    "duration" : 171
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fb34ec00530ad911",
-  "name" : "测试用例：按运营商名称搜索",
+  "uid" : "4adb2b0cf0de519d",
+  "name" : "测试用例: Can数据导出",
   "time" : {
-    "start" : 1758013529028,
-    "stop" : 1758013529522,
-    "duration" : 494
+    "start" : 1761015698533,
+    "stop" : 1761015699074,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "911d1140fcc46483",
+  "name" : "测试用例: 三级报警列表_按vin查询",
+  "time" : {
+    "start" : 1761015692461,
+    "stop" : 1761015694333,
+    "duration" : 1872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26e65c1f54b2efcd",
+  "name" : "测试用例: 三级报警列表_按报警原因查询",
+  "time" : {
+    "start" : 1761015695980,
+    "stop" : 1761015697649,
+    "duration" : 1669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "426517e026609f5f",
+  "name" : "测试用例: 三级报警列表_按结构号查询",
+  "time" : {
+    "start" : 1761015697708,
+    "stop" : 1761015698500,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7f62ca5038caf5f",
+  "name" : "测试用例: 三级报警列表_按最高报警等级查询",
+  "time" : {
+    "start" : 1761015694393,
+    "stop" : 1761015695923,
+    "duration" : 1530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86147f11c894e9e8",
+  "name" : "测试用例: 地图监控车辆列表_按VIN搜索车辆",
+  "time" : {
+    "start" : 1761015699426,
+    "stop" : 1761015699562,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20c38e7ebac692f8",
+  "name" : "测试用例: 地图监控车辆列表_搜索在线车辆",
+  "time" : {
+    "start" : 1761015699130,
+    "stop" : 1761015699390,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b01d399709a0cda5",
+  "name" : "测试用例: 三级报警列表_按vin查询",
+  "time" : {
+    "start" : 1761015690621,
+    "stop" : 1761015692398,
+    "duration" : 1777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "936d87c639be3eb2",
+  "name" : "测试用例: 三级报警列表_当日有数据产生",
+  "time" : {
+    "start" : 1761015689551,
+    "stop" : 1761015690560,
+    "duration" : 1009
   },
   "status" : "passed",
   "severity" : "normal"

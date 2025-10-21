@@ -1,0 +1,251 @@
+{
+  "uid" : "b01d399709a0cda5",
+  "name" : "测试用例: 三级报警列表_按vin查询",
+  "fullName" : "TestCase.test_alarm_level3.Test_searchlist#test_02_byvin",
+  "historyId" : "e8ccaf51d36059d54595766d41ccd626",
+  "time" : {
+    "start" : 1761015690621,
+    "stop" : 1761015692398,
+    "duration" : 1777
+  },
+  "description" : "\n            用例描述:三级报警列表按VIN搜索,参数为上一个接口返回值\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:三级报警列表按VIN搜索,参数为上一个接口返回值\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761015690563,
+      "stop" : 1761015690620,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761015690619,
+        "stop" : 1761015690620,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8b862762bc2cc8c",
+        "name" : "请求地址",
+        "source" : "e8b862762bc2cc8c.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "230e9978db25346f",
+        "name" : "请求路径",
+        "source" : "230e9978db25346f.attach",
+        "type" : "text/plain",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761015689495,
+      "stop" : 1761015689495,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761015689495,
+      "stop" : 1761015689496,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "case_data",
+    "time" : {
+      "start" : 1761015689496,
+      "stop" : 1761015689496,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:三级报警列表按VIN搜索,参数为上一个接口返回值\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "三级报警列表接口_按VIN查询",
+      "time" : {
+        "start" : 1761015692395,
+        "stop" : 1761015692398,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42fb762677df3195",
+        "name" : "测试数据",
+        "source" : "42fb762677df3195.attach",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "992747eb56fe2cbe",
+        "name" : "响应状态码",
+        "source" : "992747eb56fe2cbe.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "4b7fdad1d606fc34",
+        "name" : "响应时间ms",
+        "source" : "4b7fdad1d606fc34.attach",
+        "type" : "text/plain",
+        "size" : 5
+      }, {
+        "uid" : "73149313d8e39e77",
+        "name" : "响应内容",
+        "source" : "73149313d8e39e77.attach",
+        "type" : "text/plain",
+        "size" : 24434
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761015692399,
+      "stop" : 1761015692399,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_alarm_level3"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchlist"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "26973-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_alarm_level3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa0b57fa7c4003f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761015586702,
+        "stop" : 1761015609037,
+        "duration" : 22335
+      }
+    }, {
+      "uid" : "b394d83b47a8197b",
+      "status" : "broken",
+      "statusDetails" : "yaml.parser.ParserError: while parsing a block mapping\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 90, column 3\nexpected <block end>, but found '<block mapping start>'\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 92, column 4",
+      "time" : {
+        "start" : 1761015552049,
+        "stop" : 1761015552049,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "47de6288d37e0865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761013205566,
+        "stop" : 1761013208512,
+        "duration" : 2946
+      }
+    }, {
+      "uid" : "53798a781b466e39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761012281129,
+        "stop" : 1761012284562,
+        "duration" : 3433
+      }
+    }, {
+      "uid" : "f4a12bca836536cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761012238049,
+        "stop" : 1761012257218,
+        "duration" : 19169
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b01d399709a0cda5.json",
+  "parameterValues" : [ ]
+}

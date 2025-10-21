@@ -1,0 +1,208 @@
+{
+  "uid" : "52740d05993517ed",
+  "name" : "测试用例: 地图监控车辆列表_按VIN搜索车辆",
+  "fullName" : "TestCase.test_map_monitor.Test_searchlist#test_02",
+  "historyId" : "99154c815c4a13fc78f6809b21254f55",
+  "time" : {
+    "start" : 1761015618932,
+    "stop" : 1761015622721,
+    "duration" : 3789
+  },
+  "description" : "\n            用例描述:地图监控列表按VIN搜索,参数为上一个接口返回值\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:地图监控列表按VIN搜索,参数为上一个接口返回值\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761015618895,
+      "stop" : 1761015618932,
+      "duration" : 37
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761015618931,
+        "stop" : 1761015618932,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "827cc2b82a67050f",
+        "name" : "请求地址",
+        "source" : "827cc2b82a67050f.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "86b33dbfdcd7d9a2",
+        "name" : "请求路径",
+        "source" : "86b33dbfdcd7d9a2.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761015586140,
+      "stop" : 1761015586140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "case_data",
+    "time" : {
+      "start" : 1761015618483,
+      "stop" : 1761015618483,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761015586140,
+      "stop" : 1761015586140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:地图监控列表按VIN搜索,参数为上一个接口返回值\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "地图监控列表接口_按VIN查询",
+      "time" : {
+        "start" : 1761015622720,
+        "stop" : 1761015622721,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d66108a9946fb2a6",
+        "name" : "测试数据",
+        "source" : "d66108a9946fb2a6.attach",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "2ee4f8cc59f54361",
+        "name" : "响应状态码",
+        "source" : "2ee4f8cc59f54361.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "f89079985322ea5c",
+        "name" : "响应时间ms",
+        "source" : "f89079985322ea5c.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "3cfad7a8221130cc",
+        "name" : "响应内容",
+        "source" : "3cfad7a8221130cc.attach",
+        "type" : "text/plain",
+        "size" : 614
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761015622722,
+      "stop" : 1761015622722,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_map_monitor"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchlist"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "26441-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_map_monitor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52740d05993517ed.json",
+  "parameterValues" : [ ]
+}

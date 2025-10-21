@@ -1,20 +1,28 @@
+'''
+Descripttion: 
+Author: zlj
+Date: 2020-11-17 09:37:52
+'''
 # -*- coding:UTF-8 -*-
 import pymysql.cursors
-from Conf.Config import Config
-conf = Config()
+from Conf.Config import ReadConfig
+conf = ReadConfig()
+
+
 
 
 
 class DbConnect(object):  
 
     def __init__(self):
+        db_msg= conf.get_option_value('DB')
         self.connection = pymysql.connect(
-            host= conf.db_qiye6host,
-            port= int(conf.db_qiye6port),
-            user=  conf.db_qiye6user,
-            password= conf.db_qiye6password,
-            db= conf.db_qiye6name,
-            charset= conf.db_qiye6charset,
+            host= db_msg['host'],
+            port= int(db_msg['port']),
+            user= db_msg['user'],
+            password= db_msg['password'],
+            db= db_msg['db'],
+            charset= db_msg['charset'],
             cursorclass=pymysql.cursors.DictCursor
             )
         self.cursor=self.connection.cursor()

@@ -1,309 +1,709 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "burnishdeiMac-3.local",
     "children" : [ {
-      "name" : "7379-MainThread",
+      "name" : "26441-MainThread",
       "children" : [ {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "1ff56f6ceafb2d1d",
-        "parentUid" : "d9f121144c3d06be62ed4dc9ea905ddd",
+        "name" : "测试用例: Can数据导出",
+        "uid" : "4375ed34acecc5c9",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
         "status" : "passed",
         "time" : {
-          "start" : 1758012609367,
-          "stop" : 1758012609675,
-          "duration" : 308
+          "start" : 1761015615640,
+          "stop" : 1761015618480,
+          "duration" : 2840
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "92ba0a93acb5df97",
-        "parentUid" : "d9f121144c3d06be62ed4dc9ea905ddd",
+        "name" : "测试用例: 三级报警列表_按结构号查询",
+        "uid" : "d2586b9244ec8d93",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
         "status" : "passed",
         "time" : {
-          "start" : 1758012608971,
-          "stop" : 1758012609353,
-          "duration" : 382
+          "start" : 1761015613830,
+          "stop" : 1761015615613,
+          "duration" : 1783
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
-      } ],
-      "uid" : "d9f121144c3d06be62ed4dc9ea905ddd"
-    }, {
-      "name" : "9044-MainThread",
-      "children" : [ {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "4080b802d2c0f030",
-        "parentUid" : "5bce2c22241455797a92c5d26d355cb8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1758012936208,
-          "stop" : 1758012936628,
-          "duration" : 420
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "822a8458be3e695b",
-        "parentUid" : "5bce2c22241455797a92c5d26d355cb8",
+        "name" : "测试用例: 三级报警列表_按vin查询",
+        "uid" : "aa0b57fa7c4003f0",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
         "status" : "passed",
         "time" : {
-          "start" : 1758012936643,
-          "stop" : 1758012937038,
-          "duration" : 395
+          "start" : 1761015586702,
+          "stop" : 1761015609037,
+          "duration" : 22335
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
-      } ],
-      "uid" : "5bce2c22241455797a92c5d26d355cb8"
-    }, {
-      "name" : "11974-MainThread",
-      "children" : [ {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "fb34ec00530ad911",
-        "parentUid" : "0000ed113b4ecc4f20dbc5ce5d2fdf3a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1758013529028,
-          "stop" : 1758013529522,
-          "duration" : 494
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "95b3c977cba8f8df",
-        "parentUid" : "0000ed113b4ecc4f20dbc5ce5d2fdf3a",
+        "name" : "测试用例: 三级报警列表_当日有数据产生",
+        "uid" : "b96f577e4164893e",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
         "status" : "passed",
         "time" : {
-          "start" : 1758013529531,
-          "stop" : 1758013529934,
-          "duration" : 403
+          "start" : 1761015586197,
+          "stop" : 1761015586570,
+          "duration" : 373
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
-      } ],
-      "uid" : "0000ed113b4ecc4f20dbc5ce5d2fdf3a"
-    }, {
-      "name" : "11811-MainThread",
-      "children" : [ {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "d42b535200647343",
-        "parentUid" : "b7242ec9b553550e665892b820f7716a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1758013505280,
-          "stop" : 1758013507964,
-          "duration" : 2684
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "9994fb4d3834981e",
-        "parentUid" : "b7242ec9b553550e665892b820f7716a",
+        "name" : "测试用例: 三级报警列表_按vin查询",
+        "uid" : "64c57e2806183bfd",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
         "status" : "passed",
         "time" : {
-          "start" : 1758013507974,
-          "stop" : 1758013508333,
-          "duration" : 359
+          "start" : 1761015609108,
+          "stop" : 1761015611042,
+          "duration" : 1934
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
-      } ],
-      "uid" : "b7242ec9b553550e665892b820f7716a"
-    }, {
-      "name" : "6894-MainThread",
-      "children" : [ {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "685e2a9ec0eaa2b6",
-        "parentUid" : "5e4572b6cbe3dbd950e5d98de0bf3217",
-        "status" : "passed",
-        "time" : {
-          "start" : 1758012528579,
-          "stop" : 1758012528882,
-          "duration" : 303
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "e4b123cc014c5c70",
-        "parentUid" : "5e4572b6cbe3dbd950e5d98de0bf3217",
+        "name" : "测试用例: 三级报警列表_按报警原因查询",
+        "uid" : "302e8d1d3873f23e",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
         "status" : "passed",
         "time" : {
-          "start" : 1758012528139,
-          "stop" : 1758012528565,
-          "duration" : 426
+          "start" : 1761015612552,
+          "stop" : 1761015613768,
+          "duration" : 1216
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
-      } ],
-      "uid" : "5e4572b6cbe3dbd950e5d98de0bf3217"
-    }, {
-      "name" : "8314-MainThread",
-      "children" : [ {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "e722cca3194c6215",
-        "parentUid" : "77b487d3e39a6c69381bc476a194c985",
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 地图监控车辆列表_搜索在线车辆",
+        "uid" : "9dc735af69d8a572",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
         "status" : "broken",
         "time" : {
-          "start" : 1758012800504,
-          "stop" : 1758012800849,
-          "duration" : 345
+          "start" : 1761015618518,
+          "stop" : 1761015618807,
+          "duration" : 289
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "5e95d142a537b0cd",
-        "parentUid" : "77b487d3e39a6c69381bc476a194c985",
+        "name" : "测试用例: 单车续航报告生成",
+        "uid" : "a320c06278c343d0",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015622751,
+          "stop" : 1761015622953,
+          "duration" : 202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 三级报警列表_按最高报警等级查询",
+        "uid" : "9d9588d161358df0",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015611106,
+          "stop" : 1761015612489,
+          "duration" : 1383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 地图监控车辆列表_按VIN搜索车辆",
+        "uid" : "52740d05993517ed",
+        "parentUid" : "d2f5c5c451bbe5e4dcf00188a7101b39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015618932,
+          "stop" : 1761015622721,
+          "duration" : 3789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2f5c5c451bbe5e4dcf00188a7101b39"
+    }, {
+      "name" : "26205-MainThread",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "977cf8b86b1c04da",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
         "status" : "broken",
         "time" : {
-          "start" : 1758012801012,
-          "stop" : 1758012801356,
+          "start" : 1761015552352,
+          "stop" : 1761015552352,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_03",
+        "uid" : "931b0a3978001814",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552183,
+          "stop" : 1761015552183,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02",
+        "uid" : "11b263f96ec72fcf",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552104,
+          "stop" : 1761015552104,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_05",
+        "uid" : "5c0562a050664b44",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552296,
+          "stop" : 1761015552296,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02",
+        "uid" : "4e5b685c32a6f718",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552477,
+          "stop" : 1761015552477,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01",
+        "uid" : "c4ae0602273e87fc",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015551902,
+          "stop" : 1761015551902,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01",
+        "uid" : "68912f61900e0a19",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552404,
+          "stop" : 1761015552404,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04",
+        "uid" : "1a7dbac4b8b44f92",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552241,
+          "stop" : 1761015552241,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_byvin",
+        "uid" : "b394d83b47a8197b",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552049,
+          "stop" : 1761015552049,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01",
+        "uid" : "d969a818867473d9",
+        "parentUid" : "12fa1e6e3872038954b83cf5ae0362ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761015552529,
+          "stop" : 1761015552529,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12fa1e6e3872038954b83cf5ae0362ea"
+    }, {
+      "name" : "15331-MainThread",
+      "children" : [ {
+        "name" : "测试用例: 按报警时间段查询",
+        "uid" : "765c2e2a0c2cad66",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013204781,
+          "stop" : 1761013205513,
+          "duration" : 732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 单车续航报告生成",
+        "uid" : "16ac0ddbc28e18b",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013220956,
+          "stop" : 1761013221123,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按结构号查询",
+        "uid" : "adc89f0fc06aa832",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013215118,
+          "stop" : 1761013217316,
+          "duration" : 2198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按vin查询",
+        "uid" : "e5ea9b1bb44e5825",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013208566,
+          "stop" : 1761013211225,
+          "duration" : 2659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按vin查询",
+        "uid" : "47de6288d37e0865",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013205566,
+          "stop" : 1761013208512,
+          "duration" : 2946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: Can数据导出",
+        "uid" : "a59bc654db8a5ce1",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013217348,
+          "stop" : 1761013220935,
+          "duration" : 3587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按报警原因查询",
+        "uid" : "e8d7881ff3b48e22",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013212569,
+          "stop" : 1761013215071,
+          "duration" : 2502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按最高报警等级查询",
+        "uid" : "4d12f6552618ec9",
+        "parentUid" : "e1b8fe76552bae1a2eb5029195848109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761013211276,
+          "stop" : 1761013212521,
+          "duration" : 1245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1b8fe76552bae1a2eb5029195848109"
+    }, {
+      "name" : "10789-MainThread",
+      "children" : [ {
+        "name" : "测试用例: 按最高报警等级查询",
+        "uid" : "3c2df7d5c83c581a",
+        "parentUid" : "00efc6322b0d72fd84fe26e1695dd2ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012259580,
+          "stop" : 1761012261310,
+          "duration" : 1730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按vin查询",
+        "uid" : "f4a12bca836536cb",
+        "parentUid" : "00efc6322b0d72fd84fe26e1695dd2ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012238049,
+          "stop" : 1761012257218,
+          "duration" : 19169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按结构号查询",
+        "uid" : "b70794f177511fb8",
+        "parentUid" : "00efc6322b0d72fd84fe26e1695dd2ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012262662,
+          "stop" : 1761012266132,
+          "duration" : 3470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按报警时间段查询",
+        "uid" : "bd4f1b8dd6077245",
+        "parentUid" : "00efc6322b0d72fd84fe26e1695dd2ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012237560,
+          "stop" : 1761012237978,
+          "duration" : 418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: Can数据导出",
+        "uid" : "5921be7b1e8b59b1",
+        "parentUid" : "00efc6322b0d72fd84fe26e1695dd2ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761012266152,
+          "stop" : 1761012266496,
           "duration" : 344
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
-      } ],
-      "uid" : "77b487d3e39a6c69381bc476a194c985"
-    }, {
-      "name" : "8769-MainThread",
-      "children" : [ {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "10059b340b0b5b4c",
-        "parentUid" : "551ae451a71c9f5f80d57cb33fc0267d",
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按vin查询",
+        "uid" : "293c9125a93eb001",
+        "parentUid" : "00efc6322b0d72fd84fe26e1695dd2ac",
         "status" : "passed",
         "time" : {
-          "start" : 1758012888308,
-          "stop" : 1758012888704,
-          "duration" : 396
+          "start" : 1761012257271,
+          "stop" : 1761012259532,
+          "duration" : 2261
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "53644d68f0689a3a",
-        "parentUid" : "551ae451a71c9f5f80d57cb33fc0267d",
+        "name" : "测试用例: 按报警原因查询",
+        "uid" : "6c1407455ccfd251",
+        "parentUid" : "00efc6322b0d72fd84fe26e1695dd2ac",
         "status" : "passed",
         "time" : {
-          "start" : 1758012887924,
-          "stop" : 1758012888296,
-          "duration" : 372
+          "start" : 1761012261358,
+          "stop" : 1761012262609,
+          "duration" : 1251
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "551ae451a71c9f5f80d57cb33fc0267d"
+      "uid" : "00efc6322b0d72fd84fe26e1695dd2ac"
     }, {
-      "name" : "11381-MainThread",
+      "name" : "11076-MainThread",
       "children" : [ {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "a6c95ee92ea62e0b",
-        "parentUid" : "9745da08cbadd315ad9e47a0982019fa",
-        "status" : "broken",
+        "name" : "测试用例: 按报警原因查询",
+        "uid" : "8563f2afcf56270d",
+        "parentUid" : "7c57440c0e196d90bf7c7cd8e7082495",
+        "status" : "passed",
         "time" : {
-          "start" : 1758013413190,
-          "stop" : 1758013413509,
-          "duration" : 319
+          "start" : 1761012287673,
+          "stop" : 1761012289100,
+          "duration" : 1427
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "3e7693e52e6f4795",
-        "parentUid" : "9745da08cbadd315ad9e47a0982019fa",
-        "status" : "broken",
+        "name" : "测试用例: 按vin查询",
+        "uid" : "3cf650a473c77f3a",
+        "parentUid" : "7c57440c0e196d90bf7c7cd8e7082495",
+        "status" : "passed",
         "time" : {
-          "start" : 1758013413647,
-          "stop" : 1758013414220,
-          "duration" : 573
+          "start" : 1761012284611,
+          "stop" : 1761012286301,
+          "duration" : 1690
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: Can数据导出",
+        "uid" : "83ad0e6aa0894f58",
+        "parentUid" : "7c57440c0e196d90bf7c7cd8e7082495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012289831,
+          "stop" : 1761012290113,
+          "duration" : 282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按报警时间段查询",
+        "uid" : "696a4e8113ac1f02",
+        "parentUid" : "7c57440c0e196d90bf7c7cd8e7082495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012280740,
+          "stop" : 1761012281082,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按vin查询",
+        "uid" : "53798a781b466e39",
+        "parentUid" : "7c57440c0e196d90bf7c7cd8e7082495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012281129,
+          "stop" : 1761012284562,
+          "duration" : 3433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按最高报警等级查询",
+        "uid" : "fb806a90a2fb4a2c",
+        "parentUid" : "7c57440c0e196d90bf7c7cd8e7082495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012286358,
+          "stop" : 1761012287627,
+          "duration" : 1269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 按结构号查询",
+        "uid" : "92c987df05a71890",
+        "parentUid" : "7c57440c0e196d90bf7c7cd8e7082495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761012289152,
+          "stop" : 1761012289799,
+          "duration" : 647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
-      "uid" : "9745da08cbadd315ad9e47a0982019fa"
+      "uid" : "7c57440c0e196d90bf7c7cd8e7082495"
     }, {
-      "name" : "10993-MainThread",
+      "name" : "26973-MainThread",
       "children" : [ {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "dd7518384cc9b414",
-        "parentUid" : "36896ec39e5289cc66a3034d31016da7",
-        "status" : "broken",
+        "name" : "测试用例: 单车续航报告生成",
+        "uid" : "12c0e1a532763735",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
         "time" : {
-          "start" : 1758013359469,
-          "stop" : 1758013359882,
-          "duration" : 413
+          "start" : 1761015699590,
+          "stop" : 1761015699761,
+          "duration" : 171
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "72223b2a5c893459",
-        "parentUid" : "36896ec39e5289cc66a3034d31016da7",
-        "status" : "broken",
+        "name" : "测试用例: 三级报警列表_按最高报警等级查询",
+        "uid" : "f7f62ca5038caf5f",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
         "time" : {
-          "start" : 1758013358940,
-          "stop" : 1758013359333,
-          "duration" : 393
+          "start" : 1761015694393,
+          "stop" : 1761015695923,
+          "duration" : 1530
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
-      } ],
-      "uid" : "36896ec39e5289cc66a3034d31016da7"
-    }, {
-      "name" : "11229-MainThread",
-      "children" : [ {
-        "name" : "测试用例：按运营商名称搜索",
-        "uid" : "fda61e036704b7d9",
-        "parentUid" : "b8fd6b4c0227829fe18c2f4e06377300",
-        "status" : "broken",
-        "time" : {
-          "start" : 1758013392216,
-          "stop" : 1758013393331,
-          "duration" : 1115
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+        "parameters" : [ ]
       }, {
-        "name" : "测试用例：按运营商ID搜索",
-        "uid" : "efcb15d35ecae113",
-        "parentUid" : "b8fd6b4c0227829fe18c2f4e06377300",
-        "status" : "broken",
+        "name" : "测试用例: 地图监控车辆列表_按VIN搜索车辆",
+        "uid" : "86147f11c894e9e8",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
         "time" : {
-          "start" : 1758013393493,
-          "stop" : 1758013394909,
-          "duration" : 1416
+          "start" : 1761015699426,
+          "stop" : 1761015699562,
+          "duration" : 136
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 地图监控车辆列表_搜索在线车辆",
+        "uid" : "20c38e7ebac692f8",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015699130,
+          "stop" : 1761015699390,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 三级报警列表_按vin查询",
+        "uid" : "b01d399709a0cda5",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015690621,
+          "stop" : 1761015692398,
+          "duration" : 1777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 三级报警列表_当日有数据产生",
+        "uid" : "936d87c639be3eb2",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015689551,
+          "stop" : 1761015690560,
+          "duration" : 1009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 三级报警列表_按报警原因查询",
+        "uid" : "26e65c1f54b2efcd",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015695980,
+          "stop" : 1761015697649,
+          "duration" : 1669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: Can数据导出",
+        "uid" : "4adb2b0cf0de519d",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015698533,
+          "stop" : 1761015699074,
+          "duration" : 541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 三级报警列表_按结构号查询",
+        "uid" : "426517e026609f5f",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015697708,
+          "stop" : 1761015698500,
+          "duration" : 792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例: 三级报警列表_按vin查询",
+        "uid" : "911d1140fcc46483",
+        "parentUid" : "cf2712b836a1b28f984c560b795efe3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761015692461,
+          "stop" : 1761015694333,
+          "duration" : 1872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
-      "uid" : "b8fd6b4c0227829fe18c2f4e06377300"
+      "uid" : "cf2712b836a1b28f984c560b795efe3f"
     } ],
     "uid" : "acd4037c8fe6cd4a158e13c051ce852d"
-  } ]
+  } ],
+  "name" : "timeline"
 }

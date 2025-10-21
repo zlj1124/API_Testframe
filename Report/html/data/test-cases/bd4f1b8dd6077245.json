@@ -1,0 +1,214 @@
+{
+  "uid" : "bd4f1b8dd6077245",
+  "name" : "测试用例: 按报警时间段查询",
+  "fullName" : "TestCase.test_alarm_level3.Test_searchlist#test_01",
+  "historyId" : "38ac91a3faab79df9094f37cd344db7d",
+  "time" : {
+    "start" : 1761012237560,
+    "stop" : 1761012237978,
+    "duration" : 418
+  },
+  "description" : "\n            用例描述:三级报警列表按时间段搜索，时间段为今天\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:三级报警列表按时间段搜索，时间段为今天\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761012237514,
+      "stop" : 1761012237514,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761012237515,
+      "stop" : 1761012237559,
+      "duration" : 44
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761012237558,
+        "stop" : 1761012237559,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8b4fa1268f35e5f",
+        "name" : "请求地址",
+        "source" : "a8b4fa1268f35e5f.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "75746248582bed2d",
+        "name" : "请求路径",
+        "source" : "75746248582bed2d.attach",
+        "type" : "text/plain",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "case_data",
+    "time" : {
+      "start" : 1761012237515,
+      "stop" : 1761012237515,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761012237514,
+      "stop" : 1761012237514,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:三级报警列表按时间段搜索，时间段为今天\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "三级报警列表接口_按时间段查询",
+      "time" : {
+        "start" : 1761012237976,
+        "stop" : 1761012237978,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5fa4b41320a3891",
+        "name" : "测试数据",
+        "source" : "d5fa4b41320a3891.attach",
+        "type" : "text/plain",
+        "size" : 114
+      }, {
+        "uid" : "ed58207717dd3ab0",
+        "name" : "响应状态码",
+        "source" : "ed58207717dd3ab0.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "120d67c3e2941809",
+        "name" : "响应时间ms",
+        "source" : "120d67c3e2941809.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "5b01d5b7d104ba92",
+        "name" : "响应内容",
+        "source" : "5b01d5b7d104ba92.attach",
+        "type" : "text/plain",
+        "size" : 24340
+      }, {
+        "uid" : "662dcaf4467a4fbd",
+        "name" : "断言描述",
+        "source" : "662dcaf4467a4fbd.attach",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761012237978,
+      "stop" : 1761012237978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_alarm_level3"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchlist"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "10789-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_alarm_level3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd4f1b8dd6077245.json",
+  "parameterValues" : [ ]
+}

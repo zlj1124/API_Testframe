@@ -1,43 +1,171 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "TestCase",
     "children" : [ {
-      "name" : "test_operator",
+      "name" : "test_alarm_level3",
       "children" : [ {
-        "name" : "TestOperator",
+        "name" : "Test_searchlist",
         "children" : [ {
-          "name" : "测试用例：按运营商名称搜索",
-          "uid" : "fb34ec00530ad911",
-          "parentUid" : "7a155a4d98f3a8d3f285391c61d8da05",
+          "name" : "测试用例: 三级报警列表_当日有数据产生",
+          "uid" : "936d87c639be3eb2",
+          "parentUid" : "7c73c2d23c95e0952ff317795008af74",
           "status" : "passed",
           "time" : {
-            "start" : 1758013529028,
-            "stop" : 1758013529522,
-            "duration" : 494
+            "start" : 1761015689551,
+            "stop" : 1761015690560,
+            "duration" : 1009
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'运营商'", "'运营商'", "20", "'按运营商名称搜索'", "1" ]
+          "parameters" : [ ]
         }, {
-          "name" : "测试用例：按运营商ID搜索",
-          "uid" : "95b3c977cba8f8df",
-          "parentUid" : "7a155a4d98f3a8d3f285391c61d8da05",
+          "name" : "测试用例: 三级报警列表_按vin查询",
+          "uid" : "b01d399709a0cda5",
+          "parentUid" : "7c73c2d23c95e0952ff317795008af74",
           "status" : "passed",
           "time" : {
-            "start" : 1758013529531,
-            "stop" : 1758013529934,
-            "duration" : 403
+            "start" : 1761015690621,
+            "stop" : 1761015692398,
+            "duration" : 1777
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'YYS1967857075444572160'", "'YYS1967857075444572160'", "20", "'按运营商ID搜索'", "1" ]
+          "parameters" : [ ]
+        }, {
+          "name" : "测试用例: 三级报警列表_按vin查询",
+          "uid" : "911d1140fcc46483",
+          "parentUid" : "7c73c2d23c95e0952ff317795008af74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015692461,
+            "stop" : 1761015694333,
+            "duration" : 1872
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试用例: 三级报警列表_按最高报警等级查询",
+          "uid" : "f7f62ca5038caf5f",
+          "parentUid" : "7c73c2d23c95e0952ff317795008af74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015694393,
+            "stop" : 1761015695923,
+            "duration" : 1530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试用例: 三级报警列表_按报警原因查询",
+          "uid" : "26e65c1f54b2efcd",
+          "parentUid" : "7c73c2d23c95e0952ff317795008af74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015695980,
+            "stop" : 1761015697649,
+            "duration" : 1669
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试用例: 三级报警列表_按结构号查询",
+          "uid" : "426517e026609f5f",
+          "parentUid" : "7c73c2d23c95e0952ff317795008af74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015697708,
+            "stop" : 1761015698500,
+            "duration" : 792
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
         } ],
-        "uid" : "7a155a4d98f3a8d3f285391c61d8da05"
+        "uid" : "7c73c2d23c95e0952ff317795008af74"
       } ],
-      "uid" : "bddb594b4388109869f29b60a367867a"
+      "uid" : "58448a30212a58f460896a67151964b2"
+    }, {
+      "name" : "test_can_data",
+      "children" : [ {
+        "name" : "Test_Candata",
+        "children" : [ {
+          "name" : "测试用例: Can数据导出",
+          "uid" : "4adb2b0cf0de519d",
+          "parentUid" : "3f112af6e655836701420094171eb6a8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015698533,
+            "stop" : 1761015699074,
+            "duration" : 541
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3f112af6e655836701420094171eb6a8"
+      } ],
+      "uid" : "9a42774eb5aa5191280369b734b645d4"
+    }, {
+      "name" : "test_map_monitor",
+      "children" : [ {
+        "name" : "Test_searchlist",
+        "children" : [ {
+          "name" : "测试用例: 地图监控车辆列表_搜索在线车辆",
+          "uid" : "20c38e7ebac692f8",
+          "parentUid" : "94a4367f2d7de4b3b30bd6ec62c19d57",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015699130,
+            "stop" : 1761015699390,
+            "duration" : 260
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试用例: 地图监控车辆列表_按VIN搜索车辆",
+          "uid" : "86147f11c894e9e8",
+          "parentUid" : "94a4367f2d7de4b3b30bd6ec62c19d57",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015699426,
+            "stop" : 1761015699562,
+            "duration" : 136
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "94a4367f2d7de4b3b30bd6ec62c19d57"
+      } ],
+      "uid" : "ecadae2f584c318e39f742156b21deee"
+    }, {
+      "name" : "test_range_report",
+      "children" : [ {
+        "name" : "Test_Rangereport",
+        "children" : [ {
+          "name" : "测试用例: 单车续航报告生成",
+          "uid" : "12c0e1a532763735",
+          "parentUid" : "5ecfe13114d9aaefa3e1a0c00eae321c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1761015699590,
+            "stop" : 1761015699761,
+            "duration" : 171
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5ecfe13114d9aaefa3e1a0c00eae321c"
+      } ],
+      "uid" : "b9b001f432ebaf71e397e3ea3a132c37"
     } ],
     "uid" : "ee79ae265a842e48c4df30f006daaf4e"
-  } ]
+  } ],
+  "name" : "suites"
 }

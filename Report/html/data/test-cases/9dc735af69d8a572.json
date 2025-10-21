@@ -1,0 +1,160 @@
+{
+  "uid" : "9dc735af69d8a572",
+  "name" : "测试用例: 地图监控车辆列表_搜索在线车辆",
+  "fullName" : "TestCase.test_map_monitor.Test_searchlist#test_01",
+  "historyId" : "ef3719598451875c9666b0d230a18b5f",
+  "time" : {
+    "start" : 1761015618518,
+    "stop" : 1761015618807,
+    "duration" : 289
+  },
+  "description" : "\n            用例描述:地图监控搜索在线车辆\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:地图监控搜索在线车辆\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'expected'",
+  "statusTrace" : "self = <test_map_monitor.Test_searchlist object at 0x1187ae560>, api_client = <Common.Send_Request.Request object at 0x1187ae9b0>\nlogin_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IjE1Mzc1MjIyMzQzIiwiZXhwIjoxNzYxMTg3NTkyLCJlbWFpbCI6IiIsInBob25lIjoiMTUzNzUyMjIzNDMifQ.7zr6TMyMvFZ8Tg_GyntKsT27eWS3efzIp-3hr-HsS3s'\ncase_data = {'vin': 'S1112755'}\n\n    def test_01(self,api_client,login_token,case_data):\n        \"\"\"\n            用例描述:地图监控搜索在线车辆\n        \"\"\"\n        allure.dynamic.title(f\"测试用例: {self.case1_data['name']}\")\n        api_url = self.host + self.path\n        data=self.case1_data['params']\n        print('请求信息:path:{},data:{}---'.format(api_url,data))\n        response = api_client.get_request(url=api_url,data=data)\n        vin=response[\"body\"]['data'][0]['vin']\n        case_data[\"vin\"] = vin\n        msg = response[\"body\"]['data'][0]['dynamic_online_status_display']  # 从响应中提取\n>       expect= self.case1_data['expected']['dynamic_online_status_display']\nE       KeyError: 'expected'\n\nTestCase/test_map_monitor.py:51: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761015586140,
+      "stop" : 1761015586140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "case_data",
+    "time" : {
+      "start" : 1761015618483,
+      "stop" : 1761015618483,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761015618483,
+      "stop" : 1761015618518,
+      "duration" : 35
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761015618517,
+        "stop" : 1761015618518,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8014795fe7fc36d",
+        "name" : "请求地址",
+        "source" : "d8014795fe7fc36d.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "f4c37f5d096e925c",
+        "name" : "请求路径",
+        "source" : "f4c37f5d096e925c.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761015586140,
+      "stop" : 1761015586140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761015618893,
+      "stop" : 1761015618893,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_map_monitor"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchlist"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "26441-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_map_monitor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9dc735af69d8a572.json",
+  "parameterValues" : [ ]
+}

@@ -33,11 +33,15 @@ class Request:
         # response = requests.post(url=url, data=data)
         # auth = "JWT " + response.json()["token"]
         msg= localconfig.get_option_value('jac')
-      
+        # self.base_url = base_url
         self.headers= eval(msg['headers'])
-        auth='Bearer f2ad1d26-9fbe-44e1-b54d-6bc35691d885'
-        self.headers["Authorization"] = auth
+        # auth='Bearer 0f044544-430c-4d63-b29c-82f4a3600271'
+        self.token=None
+       
  
+    def update_headers(self, new_headers):
+        """更新请求头（如添加 token）"""
+        self.headers.update(new_headers)
 
     def get_request(self, url, data):
         """

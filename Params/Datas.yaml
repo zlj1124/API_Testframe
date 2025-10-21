@@ -1,18 +1,122 @@
 #主机host地址
-host: http://192.168.3.75:8080
+host: http://192.168.26.111:30213
 #/auth/token/profile/get/
 captcha_path: /auth/captcha
 login_path: /auth/login
-customer_path: /sys/sysCustomerManagement/queryCustomerManagementPageInfo
-Operator_path: /sys/sysOperatorManagement/queryPageInfo
+
+
+
+
 data_sucess:
-  username: 15375222343
+  phone: 15375222343
   password: xnyfwb121
   
-data_error:
-  username: 10089
-  password: 10089
+alarm_level3:
+  vin: 10089
+  alert_level: 3
+  alert_reason: LowSoc
+  hierarchy_num: X50E2
+  city_id: 115
+  page_size: 20
+  page_num: 1
+
+
+alarm_level3_case1:
+  path: "/analysis/alarm_level_3"
+  name: "三级报警列表_当日有数据产生"
+  params:
+    page_num: 1
+    page_size: 10
+    start_time__gt: 
+    start_time__lt:
+
+alarm_level3_case2:
+  name: "三级报警列表_按vin查询"
+  params:
+    page_num: 1
+    page_size: 10
+    vin: R1107946
+  expected:
+    'vin': 'R1107946'
+
   
+alarm_level3_case3:
+  name: "三级报警列表_按最高报警等级查询"
+  params:
+    page_num: 1
+    page_size: 10
+    alert_level: 3    
+  expected:
+    'alert_level': '3'
+
+alarm_level3_case4:
+  name: "三级报警列表_按报警原因查询"
+  params:
+    page_num: 1
+    page_size: 10
+    alert_reason: TemperatureDifference   
+  expected:
+    'alert_reason': 'TemperatureDifference'
+
+alarm_level3_case5:
+  name: "三级报警列表_按结构号查询"
+  params:
+    page_num: 1
+    page_size: 10
+    hierarchy_num: B5F00    
+  expected:
+    'hierarchy_num': 'B5F00' 
+
+can_data_case1:
+  path: "/export/export"
+  name: "Can数据导出"
+  params:
+    page_num: 1
+    page_size: 10
+    export_record_type: export_can_data
+  expected:
+    'is_complete_display': '成功' 
+
+range_report_case1:
+  path: "/operations_management/charge_record_singtruck"
+  name: "单车续航报告生成"
+  params:
+    page_num: 1
+    page_size: 10
+  expected:
+    'calculate_status_display': '已完成' 
+
+map_monitor_case1:
+  path: "/information/truck/map_truck_list"
+  name: "地图监控车辆列表_搜索在线车辆"
+  params:
+    page_num: 1
+    page_size: 10
+    dynamic_online_status: online
+  expected:
+    'dynamic_online_status_display': '在线' 
+
+map_monitor_case2:
+  name: "地图监控车辆列表_按VIN搜索车辆"
+  params:
+    page_num: 1
+    page_size: 10
+    vin:
+    
+map_monitor_case3:  
+  path: "/monitor/map_monitor"
+  name: "地图监控_车辆卡片详情"
+  params:
+    page_num: 1
+    page_size: 10
+    vin: 
+  expected:
+    'dynamic_online_status_display': '在线'   
+ 
+
+
+
+
 data_passnull:
   username: 10086
   password:

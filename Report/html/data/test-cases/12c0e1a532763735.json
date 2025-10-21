@@ -1,0 +1,226 @@
+{
+  "uid" : "12c0e1a532763735",
+  "name" : "测试用例: 单车续航报告生成",
+  "fullName" : "TestCase.test_range_report.Test_Rangereport#test_01",
+  "historyId" : "ff44fc878c1e76b8cbdb02794d5f1770",
+  "time" : {
+    "start" : 1761015699590,
+    "stop" : 1761015699761,
+    "duration" : 171
+  },
+  "description" : "\n            用例描述:单车续航报告生成，任务列表导出状态为已完成\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:单车续航报告生成，任务列表导出状态为已完成\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761015699566,
+      "stop" : 1761015699590,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761015699589,
+        "stop" : 1761015699590,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae273b757ea90739",
+        "name" : "请求地址",
+        "source" : "ae273b757ea90739.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "5ffdf638e1abf493",
+        "name" : "请求路径",
+        "source" : "5ffdf638e1abf493.attach",
+        "type" : "text/plain",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761015689495,
+      "stop" : 1761015689495,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761015689495,
+      "stop" : 1761015689496,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:单车续航报告生成，任务列表导出状态为已完成\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "单车续航报告生成接口",
+      "time" : {
+        "start" : 1761015699759,
+        "stop" : 1761015699760,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f842a9fa847cbd88",
+        "name" : "测试数据",
+        "source" : "f842a9fa847cbd88.attach",
+        "type" : "text/plain",
+        "size" : 32
+      }, {
+        "uid" : "79caa1a486a4787b",
+        "name" : "响应状态码",
+        "source" : "79caa1a486a4787b.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "9d40e1005b6d75c3",
+        "name" : "响应时间ms",
+        "source" : "9d40e1005b6d75c3.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "6f7aaab9e9841526",
+        "name" : "响应内容",
+        "source" : "6f7aaab9e9841526.attach",
+        "type" : "text/plain",
+        "size" : 5395
+      }, {
+        "uid" : "f97efc973a02b51b",
+        "name" : "断言描述",
+        "source" : "f97efc973a02b51b.attach",
+        "type" : "text/plain",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761015699761,
+      "stop" : 1761015699761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_range_report"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Rangereport"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "26973-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_range_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a320c06278c343d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761015622751,
+        "stop" : 1761015622953,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "d969a818867473d9",
+      "status" : "broken",
+      "statusDetails" : "yaml.parser.ParserError: while parsing a block mapping\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 90, column 3\nexpected <block end>, but found '<block mapping start>'\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 92, column 4",
+      "time" : {
+        "start" : 1761015552529,
+        "stop" : 1761015552529,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "16ac0ddbc28e18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1761013220956,
+        "stop" : 1761013221123,
+        "duration" : 167
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12c0e1a532763735.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid" : "fb806a90a2fb4a2c",
+  "name" : "测试用例: 按最高报警等级查询",
+  "fullName" : "TestCase.test_alarm_level3.Test_searchlist#test_03",
+  "historyId" : "b623a8551c4d333b43807a505da16dd6",
+  "time" : {
+    "start" : 1761012286358,
+    "stop" : 1761012287627,
+    "duration" : 1269
+  },
+  "description" : "\n            用例描述:三级报警列表按最高报警等级搜索\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:三级报警列表按最高报警等级搜索\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761012280690,
+      "stop" : 1761012280690,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761012286304,
+      "stop" : 1761012286358,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761012286357,
+        "stop" : 1761012286358,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "666311192c5cdeea",
+        "name" : "请求地址",
+        "source" : "666311192c5cdeea.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "d82cb30dcc148b63",
+        "name" : "请求路径",
+        "source" : "d82cb30dcc148b63.attach",
+        "type" : "text/plain",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761012280690,
+      "stop" : 1761012280690,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:三级报警列表按最高报警等级搜索\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "三级报警列表接口_最高等级查询",
+      "time" : {
+        "start" : 1761012287614,
+        "stop" : 1761012287626,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b879eacecc17762b",
+        "name" : "测试数据",
+        "source" : "b879eacecc17762b.attach",
+        "type" : "text/plain",
+        "size" : 50
+      }, {
+        "uid" : "45b91f70a840435",
+        "name" : "响应状态码",
+        "source" : "45b91f70a840435.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "4fcd83e870389a17",
+        "name" : "响应时间ms",
+        "source" : "4fcd83e870389a17.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "25d0c3b2fb0b5e7",
+        "name" : "响应内容",
+        "source" : "25d0c3b2fb0b5e7.attach",
+        "type" : "text/plain",
+        "size" : 24419
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761012287628,
+      "stop" : 1761012287628,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_alarm_level3"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchlist"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "11076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_alarm_level3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb806a90a2fb4a2c.json",
+  "parameterValues" : [ ]
+}

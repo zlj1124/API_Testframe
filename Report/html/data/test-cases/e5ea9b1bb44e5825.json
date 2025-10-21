@@ -1,0 +1,193 @@
+{
+  "uid" : "e5ea9b1bb44e5825",
+  "name" : "测试用例: 按vin查询",
+  "fullName" : "TestCase.test_alarm_level3.Test_searchlist#test_02",
+  "historyId" : "69ca5ab6eac3c52bd91997f7688e8d47",
+  "time" : {
+    "start" : 1761013208566,
+    "stop" : 1761013211225,
+    "duration" : 2659
+  },
+  "description" : "\n            用例描述:三级报警列表按VIN搜,参数为配置参数\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:三级报警列表按VIN搜,参数为配置参数\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761013208515,
+      "stop" : 1761013208565,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求接口信息",
+      "time" : {
+        "start" : 1761013208565,
+        "stop" : 1761013208565,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9a7216dc70b0755",
+        "name" : "请求地址",
+        "source" : "c9a7216dc70b0755.attach",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "16abf9e60ceacabb",
+        "name" : "请求路径",
+        "source" : "16abf9e60ceacabb.attach",
+        "type" : "text/plain",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761013204729,
+      "stop" : 1761013204729,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761013204729,
+      "stop" : 1761013204729,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述:三级报警列表按VIN搜,参数为配置参数\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "三级报警列表接口_按VIN查询",
+      "time" : {
+        "start" : 1761013211224,
+        "stop" : 1761013211225,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cafc13c1e760d184",
+        "name" : "测试数据",
+        "source" : "cafc13c1e760d184.attach",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "fde0f7192020eaf4",
+        "name" : "响应状态码",
+        "source" : "fde0f7192020eaf4.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "d3bf7a4bc87a84be",
+        "name" : "响应时间ms",
+        "source" : "d3bf7a4bc87a84be.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "347c71fdc45d073b",
+        "name" : "响应内容",
+        "source" : "347c71fdc45d073b.attach",
+        "type" : "text/plain",
+        "size" : 24447
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "getdata::0",
+    "time" : {
+      "start" : 1761013211226,
+      "stop" : 1761013211226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_alarm_level3"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchlist"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "15331-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_alarm_level3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5ea9b1bb44e5825.json",
+  "parameterValues" : [ ]
+}

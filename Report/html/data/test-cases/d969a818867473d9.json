@@ -1,0 +1,105 @@
+{
+  "uid" : "d969a818867473d9",
+  "name" : "test_01",
+  "fullName" : "TestCase.test_range_report.Test_Rangereport#test_01",
+  "historyId" : "ff44fc878c1e76b8cbdb02794d5f1770",
+  "time" : {
+    "start" : 1761015552529,
+    "stop" : 1761015552529,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述:单车续航报告生成，任务列表导出状态为已完成\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:单车续航报告生成，任务列表导出状态为已完成\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "yaml.parser.ParserError: while parsing a block mapping\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 90, column 3\nexpected <block end>, but found '<block mapping start>'\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 92, column 4",
+  "statusTrace" : "self = <test_range_report.Test_Rangereport object at 0x114377520>\n\n    @pytest.fixture(autouse=True)\n    def getdata(self):\n        print('before')\n        tl = ReadYaml()\n        self.test = Assert.Assertions()\n>       self.host = tl.get_datas[\"host\"]\n\nTestCase/test_range_report.py:25: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nParams/parseYaml.py:23: in get_datas\n    self.content=yaml.safe_load(f)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/__init__.py:125: in safe_load\n    return load(stream, SafeLoader)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/__init__.py:81: in load\n    return loader.get_single_data()\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/constructor.py:49: in get_single_data\n    node = self.get_single_node()\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py:36: in get_single_node\n    document = self.compose_document()\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py:55: in compose_document\n    node = self.compose_node(None, None)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py:84: in compose_node\n    node = self.compose_mapping_node(anchor)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py:133: in compose_mapping_node\n    item_value = self.compose_node(node, item_key)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py:84: in compose_node\n    node = self.compose_mapping_node(anchor)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py:127: in compose_mapping_node\n    while not self.check_event(MappingEndEvent):\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/parser.py:98: in check_event\n    self.current_event = self.state()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <yaml.loader.SafeLoader object at 0x1145c27a0>\n\n    def parse_block_mapping_key(self):\n        if self.check_token(KeyToken):\n            token = self.get_token()\n            if not self.check_token(KeyToken, ValueToken, BlockEndToken):\n                self.states.append(self.parse_block_mapping_value)\n                return self.parse_block_node_or_indentless_sequence()\n            else:\n                self.state = self.parse_block_mapping_value\n                return self.process_empty_scalar(token.end_mark)\n        if not self.check_token(BlockEndToken):\n            token = self.peek_token()\n>           raise ParserError(\"while parsing a block mapping\", self.marks[-1],\n                    \"expected <block end>, but found %r\" % token.id, token.start_mark)\nE           yaml.parser.ParserError: while parsing a block mapping\nE             in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 90, column 3\nE           expected <block end>, but found '<block mapping start>'\nE             in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 92, column 4\n\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/parser.py:438: ParserError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1761015551902,
+      "stop" : 1761015551902,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "getdata",
+    "time" : {
+      "start" : 1761015552529,
+      "stop" : 1761015552536,
+      "duration" : 7
+    },
+    "status" : "broken",
+    "statusMessage" : "yaml.parser.ParserError: while parsing a block mapping\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 90, column 3\nexpected <block end>, but found '<block mapping start>'\n  in \"/Users/test/work/API_Testframe/Params/Datas.yaml\", line 92, column 4\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pluggy/_callers.py\", line 80, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/fixtures.py\", line 895, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/Users/test/work/API_Testframe/TestCase/test_range_report.py\", line 25, in getdata\n    self.host = tl.get_datas[\"host\"]\n  File \"/Users/test/work/API_Testframe/Params/parseYaml.py\", line 23, in get_datas\n    self.content=yaml.safe_load(f)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/__init__.py\", line 125, in safe_load\n    return load(stream, SafeLoader)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/__init__.py\", line 81, in load\n    return loader.get_single_data()\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/constructor.py\", line 49, in get_single_data\n    node = self.get_single_node()\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py\", line 36, in get_single_node\n    document = self.compose_document()\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py\", line 55, in compose_document\n    node = self.compose_node(None, None)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py\", line 84, in compose_node\n    node = self.compose_mapping_node(anchor)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py\", line 133, in compose_mapping_node\n    item_value = self.compose_node(node, item_key)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py\", line 84, in compose_node\n    node = self.compose_mapping_node(anchor)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/composer.py\", line 127, in compose_mapping_node\n    while not self.check_event(MappingEndEvent):\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/parser.py\", line 98, in check_event\n    self.current_event = self.state()\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/yaml/parser.py\", line 438, in parse_block_mapping_key\n    raise ParserError(\"while parsing a block mapping\", self.marks[-1],\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "login_token",
+    "time" : {
+      "start" : 1761015551903,
+      "stop" : 1761015551903,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_range_report"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Rangereport"
+  }, {
+    "name" : "host",
+    "value" : "burnishdeiMac-3.local"
+  }, {
+    "name" : "thread",
+    "value" : "26205-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_range_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d969a818867473d9.json",
+  "parameterValues" : [ ]
+}
